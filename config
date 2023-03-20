@@ -1,0 +1,405 @@
+{
+  "title": "EnercoopCo - version du 1er mars 2023",
+  "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
+  "description": "",
+  "type": "folder",
+  "children": [
+    {
+      "title": "Fonds OpenStreetMap",
+      "ident": "e65dbf57-7447-4369-99a9-2abc0020cea3",
+      "description": "Fonds de carte OpenStreetMap mis en forme par DataGrandEst",
+      "metadata_url": "",
+      "type": "folder",
+      "children": [
+        {
+          "title": "OpenStreetMap - OSM style Bright",
+          "ident": "cb013c23-fbf8-40eb-97f9-a3f0430fb336",
+          "description": "Fond de plan OpenStreetMap élaboré par GéoGrandEst - OSM style Standard",
+          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://osm.datagrandest.fr/mapcache",
+            "format": "image/png",
+            "name": "osm-default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "OpenStreetMap - OSM style Désaturé",
+          "ident": "0f01a447-b9b5-4cf8-983b-57009bc8250b",
+          "description": "Fond de carte pâle OpenStreetMap mis en forme par DataGrandEst",
+          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://osm.datagrandest.fr/mapcache",
+            "format": "image/png",
+            "name": "faded",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "OpenStreetMap - OSM style Google Maps",
+          "ident": "bd64ad68-a2c6-4ddc-a720-140cf66956aa",
+          "description": "Fond de plan OpenStreetMap élaboré par GéoGrandEst - OSM style Google Maps",
+          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://osm.datagrandest.fr/mapcache",
+            "format": "image/png",
+            "name": "osm_google",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "OpenStreetMap - OSM style Sans toponymes",
+          "ident": "509a1fa0-4346-475f-a557-117b67f71377",
+          "description": "Fond de carte OpenStreetMap sans toponymes mis en forme par DataGrandEst",
+          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://osm.datagrandest.fr/mapcache",
+            "format": "image/png",
+            "name": "pure",
+            "srs": "EPSG:2154"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Forêts",
+      "ident": "dc093575-b739-4451-ab3c-35e6be22c4ee",
+      "description": "Assemblage des couches du thème occupation du sol de la BD Topo IGN",
+      "metadata_url": "https://ids.craig.fr/geocat/srv/fre/catalog.search#/metadata/2eab86c1-8114-432a-9d42-ed968bb7fb49",
+      "type": "folder",
+      "children": [
+        {
+          "title": "BD Forêt V1",
+          "ident": "1549a7b0-b5ba-43e1-8f2f-3b6721f144d2",
+          "description": "Base de données de référence pour l’espace forestier et les milieux semi-naturels V1",
+          "metadata_url": "https://ids.craig.fr/geocat/srv/fre/catalog.search#/metadata/e8ac430c-07c0-48aa-a910-f19dd675677f",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://tiles.craig.fr/ign/service",
+            "format": "image/png",
+            "name": "bdforet_v1",
+            "srs": "EPSG:2154"
+          },
+          "bounding_boxes": [
+            [
+              626082,
+              6338347,
+              1024759,
+              6633880
+            ]
+          ]
+        },
+        {
+          "title": "BD Forêt V2",
+          "ident": "61d5a355-2c68-4903-aee2-19b19d36ec22",
+          "description": "Base de données de référence pour l’espace forestier et les milieux semi-naturels V2",
+          "metadata_url": "https://ids.craig.fr/geocat/srv/fre/catalog.search#/metadata/e8ac430c-07c0-48aa-a910-f19dd675677f",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://tiles.craig.fr/ign/service",
+            "format": "image/png",
+            "name": "bdforet_v2",
+            "srs": "EPSG:2154"
+          },
+          "bounding_boxes": [
+            [
+              626082,
+              6338347,
+              1024759,
+              6633880
+            ]
+          ]
+        },
+        {
+          "title": "Forêts publiques ONF (externe)",
+          "ident": "87b30300-2013-49f2-b05b-182c95cc2d6e",
+          "description": "Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d’établissements publics) gérées par l’Office national des forêts (ONF). ",
+          "metadata_url": "http://metadata.carmencarto.fr/geonetwork/105/fre/catalog.search#/metadata/fr-662043116-7D3DC709-E1EB-470B-9FD0-8ABF8AAFD8E4",
+          "type": "wms_layer",
+          "params": {
+            "url": "http://ws.carmencarto.fr/WMS/105/ONF_Forets",
+            "format": "image/png",
+            "name": "FOR_PUBL_FR",
+            "srs": "EPSG:2154"
+          },
+          "bounding_boxes": [
+            [
+              626082,
+              6338347,
+              1024759,
+              6633880
+            ]
+          ]
+        },
+        {
+          "title": "Parcelles forestières ONF (externe)",
+          "ident": "feefeed9-01d9-4685-9b56-a2f18a351d3b",
+          "description": "Contours des parcelles forestières publiques relevant du régime forestier : terrains domaniaux et communaux, y compris les terrains qui ne sont pas en nature de forêt. Ces contours ne doivent pas être considérés comme un référentiel mais uniquement à titre informatif.",
+          "metadata_url": "http://metadata.carmencarto.fr/geonetwork/105/fre/catalog.search#/metadata/fr-662043116-82880F0D-E1C4-4EF3-80AF-416977F118F1",
+          "type": "wms_layer",
+          "params": {
+            "url": "http://ws.carmencarto.fr/WMS/105/ONF_Forets",
+            "format": "image/png",
+            "name": "PARC_PUBL_FR",
+            "srs": "EPSG:2154"
+          },
+          "bounding_boxes": [
+            [
+              626082,
+              6338347,
+              1024759,
+              6633880
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Environnements - INPN",
+      "ident": "",
+      "description": "",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Parcs nationaux",
+          "ident": "",
+          "description": "Ensemble des parcs nationaux",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Parcs_nationaux",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Protection de biotope",
+          "ident": "",
+          "description": "Ensemble des protection de biotope",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Arretes_de_protection_de_biotope",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Réserves biologiques",
+          "ident": "",
+          "description": "Ensemble des réserves biologiques",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Reserves_biologiques",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Réserves naturelles nationales",
+          "ident": "",
+          "description": "Ensemble des réserves naturelles nationales",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Reserves_Naturelles_Nationales",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Réserves naturelles régionales",
+          "ident": "",
+          "description": "Ensemble des réserves naturelles régionales",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Reserves_naturelles_regionales",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Arrêtés de protection d'habitats naturels",
+          "ident": "",
+          "description": "Ensemble des arrêtés de protection d'habitats naturels",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Arretes_de_protection_d_habitats_naturels",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Znieff1",
+          "ident": "",
+          "description": "Ensemble des Znieff1",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Znieff1",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Znieff2",
+          "ident": "",
+          "description": "Ensemble des Znieff2",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Znieff2",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Sites d'importance communautaire JOUE (ZSC,SIC)",
+          "ident": "",
+          "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Sites_d_importance_communautaire_JOUE__ZSC_SIC_",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Sites d'importance communautaire JOUE (ZSC,SIC) (polygones remplis)",
+          "ident": "",
+          "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Sites_d_importance_communautaire",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Zones de protection spéciale",
+          "ident": "",
+          "description": "Ensemble des zones de protection spéciale",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Zones_de_protection_speciale",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Zones de protection des oiseaux",
+          "ident": "",
+          "description": "Ensemble des zones de protection des oiseaux",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "ZICO",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Terrains gérés par des Conservatoires d'espaces naturels",
+          "ident": "",
+          "description": "Ensemble des terrains gérés par des Conservatoires d'espaces naturels",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "CEN_MU",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        }
+        
+        
+      ]
+    },
+    {
+      "title": "Eau et risques",
+      "ident": "",
+      "description": "Zones concernées par des lois concernant l'eau",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Communes loi littoral",
+          "ident": "",
+          "description": "Ensemble des communes associées à la loi littoral",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "http://ws.carmen.developpement-durable.gouv.fr/WMS/91/loi_littoral?",
+            "format": "image/png",
+            "name": "Loi_littoral_2020",
+            "style": "default",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "PPR Inondation",
+          "ident": "99d6b8b6-9d94-4010-8ab7-814c6eed7965",
+          "description": "Zonage réglementaire des Plans de Prévention des Risques Inondation (France métropolitaine)",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "PPRN_ZONE_INOND_FXX",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Sites Ramsar",
+          "ident": "",
+          "description": "Ensemble des sites ramsar",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Sites_Ramsar",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        }
+
+      ]
+    }
+  ]
+}
