@@ -405,7 +405,7 @@
           "metadata_url": "",
           "type": "wms_layer",
           "params": {
-            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/",
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
             "name": "du",
             "style": "default",
