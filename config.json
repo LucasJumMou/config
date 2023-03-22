@@ -123,6 +123,84 @@
             "name": "PROTECTEDAREAS.RN",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Réserves naturelles régionales",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDSITES.MNHN.RESERVES-REGIONALES",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Arrêtés de protection d’habitats naturels",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.APHN",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "ZNIEFF 1",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.ZNIEFF1",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "ZNIEFF 2",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.ZNIEFF2",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Sites Natura 2000 (Directive Habitats)",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.SIC",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Sites Natura 2000 (Directive Oiseaux)",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.ZPS",
+            "srs": "EPSG:2154"
+          }
         }
       ]
     },
