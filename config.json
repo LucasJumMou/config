@@ -397,7 +397,20 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
-        }
+        },
+        {
+          "title": "Test urbanisme",
+          "ident": "",
+          "description": "Test urbanisme",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/",
+            "format": "image/png",
+            "name": "du",
+            "style": "default",
+            "srs": "EPSG:4326"
+          }
 
       ]
     }
