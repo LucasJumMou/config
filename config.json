@@ -407,9 +407,9 @@
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
-            "name": "du",
+            "name": "patrimoine_architectural",
             "style": "default",
-            "srs": "EPSG:4326"
+            "srs": "EPSG:2154"
           }
         }
       ]
