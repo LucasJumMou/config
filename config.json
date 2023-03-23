@@ -441,19 +441,52 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Géoportail Urbanisme",
+      "ident": "",
+      "description": "Zones concernées par des lois concernant l'eau",
+      "type": "folder",
+      "children": [
         {
-          "title": "Test urbanisme",
+          "title": "Monuments historiques",
           "ident": "",
-          "description": "Test urbanisme",
+          "description": "Monuments historiques",
           "metadata_url": "",
-          "type": "wms_layer",
+          "type": "wms_urba_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
-            "name": "patrimoine_architectural",
-            "style": "default",
-            "srs": "EPSG:2154"
+            "name": "monument_historique",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Emprise des documents d'urbanisme (petite échelle)",
+          "ident": "",
+          "description": "Emprise des documents d'urbanisme (petite échelle)",
+          "metadata_url": "",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "document",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Documents d'urbanisme",
+          "ident": "",
+          "description": "PLU, POS, CC",
+          "metadata_url": "",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "du",
+            "srs": "EPSG:4326"
           }
         }
       ]
