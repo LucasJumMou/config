@@ -76,7 +76,7 @@
           "title": "Parcs nationaux",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -89,7 +89,7 @@
           "title": "Arrêtés de protection de biotope",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -99,10 +99,23 @@
           }
         },
         {
+          "title": "Arrêtés de protection de géotope",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.APG",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
           "title": "Réserves biologiques",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -115,7 +128,7 @@
           "title": "Réserves naturelles nationales",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -128,7 +141,7 @@
           "title": "Réserves naturelles régionales",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -141,7 +154,7 @@
           "title": "Arrêtés de protection d’habitats naturels",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -154,7 +167,7 @@
           "title": "ZNIEFF 1",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -167,7 +180,7 @@
           "title": "ZNIEFF 2",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -180,7 +193,7 @@
           "title": "Sites Natura 2000 (Directive Habitats)",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -193,12 +206,64 @@
           "title": "Sites Natura 2000 (Directive Oiseaux)",
           "ident": "",
           "description": "",
-          "metadata_url": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
             "format": "image/png",
             "name": "PROTECTEDAREAS.ZPS",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Aires protégées Géoparcs",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.GP",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Inventaire National du Patrimoine Géologique",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.INPG",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Réserves de biosphère",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.BIOS",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Réserves nationales de chasse et de faune sauvage",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.RNCF",
             "srs": "EPSG:2154"
           }
         }
@@ -214,7 +279,7 @@
           "title": "Parcs nationaux",
           "ident": "",
           "description": "Ensemble des parcs nationaux",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -228,7 +293,7 @@
           "title": "Protection de biotope",
           "ident": "",
           "description": "Ensemble des protection de biotope",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -242,7 +307,7 @@
           "title": "Réserves biologiques",
           "ident": "",
           "description": "Ensemble des réserves biologiques",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -256,7 +321,7 @@
           "title": "Réserves naturelles nationales",
           "ident": "",
           "description": "Ensemble des réserves naturelles nationales",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -270,7 +335,7 @@
           "title": "Réserves naturelles régionales",
           "ident": "",
           "description": "Ensemble des réserves naturelles régionales",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -284,7 +349,7 @@
           "title": "Arrêtés de protection d'habitats naturels",
           "ident": "",
           "description": "Ensemble des arrêtés de protection d'habitats naturels",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -298,7 +363,7 @@
           "title": "Znieff1",
           "ident": "",
           "description": "Ensemble des Znieff1",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -312,7 +377,7 @@
           "title": "Znieff2",
           "ident": "",
           "description": "Ensemble des Znieff2",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -326,7 +391,7 @@
           "title": "Sites d'importance communautaire JOUE (ZSC,SIC)",
           "ident": "",
           "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -340,7 +405,7 @@
           "title": "Sites d'importance communautaire JOUE (ZSC,SIC) (polygones remplis)",
           "ident": "",
           "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -354,7 +419,7 @@
           "title": "Zones de protection spéciale",
           "ident": "",
           "description": "Ensemble des zones de protection spéciale",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -368,7 +433,7 @@
           "title": "Zones de protection des oiseaux",
           "ident": "",
           "description": "Ensemble des zones de protection des oiseaux",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -382,7 +447,7 @@
           "title": "Terrains gérés par des Conservatoires d'espaces naturels",
           "ident": "",
           "description": "Ensemble des terrains gérés par des Conservatoires d'espaces naturels",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -391,11 +456,25 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Biens du patrimoine mondial de l'UNESCO",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+            "format": "image/png",
+            "name": "Bien_du_patrimoine_mondial_de_l_UNESCO",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
         }
       ]
     },
     {
-      "title": "Eau et risques",
+      "title": "Littoral, eau et zone humide",
       "ident": "",
       "description": "Zones concernées par des lois concernant l'eau",
       "type": "folder",
@@ -412,6 +491,32 @@
             "name": "Loi_littoral_2020",
             "style": "default",
             "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Conservatoire du littoral : parcelles protégées",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.MNHN.CDL.PARCELS",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Conservatoire du littoral : périmètres autorisés",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.MNHN.CDL.PERIMETER",
+            "srs": "EPSG:2154"
           }
         },
         {
@@ -432,7 +537,7 @@
           "title": "Sites Ramsar",
           "ident": "",
           "description": "Ensemble des sites ramsar",
-          "metadata_url": "",
+          "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -486,6 +591,19 @@
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
             "name": "du",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Schéma de Cohérence Territoriale",
+          "ident": "",
+          "description": "SCOT",
+          "metadata_url": "",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "scot",
             "srs": "EPSG:4326"
           }
         }
