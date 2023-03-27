@@ -5,38 +5,12 @@
   "type": "folder",
   "children": [
     {
-      "title": "Fonds OpenStreetMap",
-      "ident": "e65dbf57-7447-4369-99a9-2abc0020cea3",
-      "description": "Fonds de carte OpenStreetMap mis en forme par DataGrandEst",
+      "title": "Fonds de cartes - OpenStreetMap/BD Ortho IGN",
+      "ident": "",
+      "description": "Ensemble de fonds de cartes OpenStreetMap et BD Ortho IGN",
       "metadata_url": "",
       "type": "folder",
       "children": [
-        {
-          "title": "OpenStreetMap - OSM style Bright",
-          "ident": "cb013c23-fbf8-40eb-97f9-a3f0430fb336",
-          "description": "Fond de plan OpenStreetMap élaboré par GéoGrandEst - OSM style Standard",
-          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://osm.datagrandest.fr/mapcache",
-            "format": "image/png",
-            "name": "osm-default",
-            "srs": "EPSG:2154"
-          }
-        },
-        {
-          "title": "OpenStreetMap - OSM style Désaturé",
-          "ident": "0f01a447-b9b5-4cf8-983b-57009bc8250b",
-          "description": "Fond de carte pâle OpenStreetMap mis en forme par DataGrandEst",
-          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://osm.datagrandest.fr/mapcache",
-            "format": "image/png",
-            "name": "faded",
-            "srs": "EPSG:2154"
-          }
-        },
         {
           "title": "OpenStreetMap - OSM style Google Maps",
           "ident": "bd64ad68-a2c6-4ddc-a720-140cf66956aa",
@@ -51,15 +25,15 @@
           }
         },
         {
-          "title": "OpenStreetMap - OSM style Sans toponymes",
-          "ident": "509a1fa0-4346-475f-a557-117b67f71377",
-          "description": "Fond de carte OpenStreetMap sans toponymes mis en forme par DataGrandEst",
-          "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
+          "title": "BD Ortho IGN 50cm",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
           "type": "wms_layer",
           "params": {
-            "url": "https://osm.datagrandest.fr/mapcache",
+            "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities",
             "format": "image/png",
-            "name": "pure",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO",
             "srs": "EPSG:2154"
           }
         }
@@ -75,7 +49,7 @@
         {
           "title": "Parcs nationaux",
           "ident": "",
-          "description": "",
+          "description": "Un parc national est une portion de territoire dans laquelle la faune, la flore et le milieu naturel en général sont protégés des activités humaines.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -86,9 +60,9 @@
           }
         },
         {
-          "title": "Arrêtés de protection de biotope",
+          "title": "APB - Arrêtés de Protection de Biotope",
           "ident": "",
-          "description": "",
+          "description": "Les arrêtés de protection de biotope (APB ou APPB) sont des actes administratifs pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -99,9 +73,9 @@
           }
         },
         {
-          "title": "Arrêtés de protection de géotope",
+          "title": "APG - Arrêtés de Protection de Géotope",
           "ident": "",
-          "description": "",
+          "description": "Les arrêtés de protection de biotope (APB ou APPB) sont des actes administratifs pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -112,9 +86,9 @@
           }
         },
         {
-          "title": "Réserves biologiques",
+          "title": "RB - Réserves Biologiques",
           "ident": "",
-          "description": "",
+          "description": "Une réserve biologique (selon les types réserve biologique domaniale » (RBD), réserve biologique dirigée » (RBD) ou réserve biologique intégrale » (RBI)) est, en France, un type d'aire protégée située en forêt, souvent non-ouverte au public, mais pas systématiquement ; ayant l’objectif de protéger des habitats ou espèces particulièrement représentatifs du milieu forestier et/ou vulnérables1. Elles ont un statut distinct de celui des réserves intégrales de parc national.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -125,9 +99,9 @@
           }
         },
         {
-          "title": "Réserves naturelles nationales",
+          "title": "RNN - Réserves Naturelles Nationales",
           "ident": "",
-          "description": "",
+          "description": "Une réserve naturelle nationale est une aire protégée faisant partie des réserves naturelles en France et dont le statut est défini par la loi relative à la démocratie de proximité du 27 février 2002. C'est un outil de protection à long terme d'espaces, d'espèces ou d'objets géologiques.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -138,9 +112,9 @@
           }
         },
         {
-          "title": "Réserves naturelles régionales",
+          "title": "RNR - Réserves Naturelles Régionales",
           "ident": "",
-          "description": "",
+          "description": "Les réserves naturelles régionales présentent les mêmes caractéristiques de gestion que les réserves naturelles nationales, à ceci près qu’elles sont créées par les Régions. Elles constituent aujourd’hui à la fois un vecteur des stratégies régionales en faveur de la biodiversité et un outil de valorisation des territoires",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -151,9 +125,9 @@
           }
         },
         {
-          "title": "Arrêtés de protection d’habitats naturels",
+          "title": "APHN - Arrêtés de Protection d’Habitats Naturels",
           "ident": "",
-          "description": "",
+          "description": "Les APHN sont des arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -166,7 +140,7 @@
         {
           "title": "ZNIEFF 1",
           "ident": "",
-          "description": "",
+          "description": "En France, une zone naturelle d’intérêt écologique, faunistique et floristique, abrégée par le sigle ZNIEFF, est un espace naturel inventorié en raison de son caractère remarquable.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -179,7 +153,7 @@
         {
           "title": "ZNIEFF 2",
           "ident": "",
-          "description": "",
+          "description": "En France, une zone naturelle d’intérêt écologique, faunistique et floristique, abrégée par le sigle ZNIEFF, est un espace naturel inventorié en raison de son caractère remarquable.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -190,9 +164,9 @@
           }
         },
         {
-          "title": "Sites Natura 2000 (Directive Habitats)",
+          "title": "Natura 2000 (Directive Habitats)",
           "ident": "",
-          "description": "",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme. ",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -203,9 +177,9 @@
           }
         },
         {
-          "title": "Sites Natura 2000 (Directive Oiseaux)",
+          "title": "Natura 2000 (Directive Oiseaux)",
           "ident": "",
-          "description": "",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -216,9 +190,9 @@
           }
         },
         {
-          "title": "Aires protégées Géoparcs",
+          "title": "APG - Aires Protégées Géoparcs",
           "ident": "",
-          "description": "",
+          "description": "Un géoparc est une aire protégée possédant des attraits géologiques correspondant généralement à des géosites. Des actions de protection et de valorisation de sites d'intérêt géologiques y sont développées en lien avec les patrimoines naturels et culturels du territoire. Le Réseau européen des Géoparcs et le Réseau mondial des Géoparcs sont soutenus par l’UNESCO. ",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -229,9 +203,9 @@
           }
         },
         {
-          "title": "Inventaire National du Patrimoine Géologique",
+          "title": "INPG - Inventaire National du Patrimoine Géologique",
           "ident": "",
-          "description": "",
+          "description": "L’Inventaire national du patrimoine géologique (INPG) est un programme qui a pour objectif de recenser les sites géologiques d’intérêt patrimonial en France. Ce travail inédit mobilise l’ensemble de la communauté des géosciences en France. ",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -242,9 +216,9 @@
           }
         },
         {
-          "title": "Réserves de biosphère",
+          "title": "RB - Réserves de Biosphère",
           "ident": "",
-          "description": "",
+          "description": "Les réserves de biosphère sont des « lieux d’apprentissage du développement durable ». Ce sont des sites qui permettent de tester des approches interdisciplinaires afin de comprendre et de gérer les changements et les interactions entre systèmes sociaux et écologiques, y compris la prévention des conflits et la gestion de la biodiversité. Ce sont des endroits qui apportent des solutions locales à des problèmes mondiaux.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -255,9 +229,9 @@
           }
         },
         {
-          "title": "Réserves nationales de chasse et de faune sauvage",
+          "title": "RNCFS - Réserves Nationales de Chasse et de Faune Sauvage",
           "ident": "",
-          "description": "",
+          "description": "Les réserves de chasse et de faune sauvage peuvent devenir des réserves nationales de chasse et de faune sauvage (RNCFS) si elles présentent une importance particulière (études scientifiques ou démonstrations pratiques qui y sont menées, espèces dont les effectifs sont en baisse ou remarquables, grande étendue)11, et deviennent de ce fait des aires protégées au titre de la stratégie nationale des aires protégées. Le classement intervient par arrêté ministériel. La gestion des RNCFS est confiée à l'Office français de la biodiversité ou à un autre établissement public. ",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
           "params": {
@@ -278,7 +252,7 @@
         {
           "title": "Parcs nationaux",
           "ident": "",
-          "description": "Ensemble des parcs nationaux",
+          "description": "Un parc national est une portion de territoire dans laquelle la faune, la flore et le milieu naturel en général sont protégés des activités humaines.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -290,9 +264,9 @@
           }
         },
         {
-          "title": "Protection de biotope",
+          "title": "APB - Arrêtés de Protection de Biotope",
           "ident": "",
-          "description": "Ensemble des protection de biotope",
+          "description": "Les arrêtés de protection de biotope (APB ou APPB) sont des actes administratifs pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -304,9 +278,9 @@
           }
         },
         {
-          "title": "Réserves biologiques",
+          "title": "RB - Réserves Biologiques",
           "ident": "",
-          "description": "Ensemble des réserves biologiques",
+          "description": "Une réserve biologique (selon les types réserve biologique domaniale » (RBD), réserve biologique dirigée » (RBD) ou réserve biologique intégrale » (RBI)) est, en France, un type d'aire protégée située en forêt, souvent non-ouverte au public, mais pas systématiquement ; ayant l’objectif de protéger des habitats ou espèces particulièrement représentatifs du milieu forestier et/ou vulnérables1. Elles ont un statut distinct de celui des réserves intégrales de parc national.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -318,9 +292,9 @@
           }
         },
         {
-          "title": "Réserves naturelles nationales",
+          "title": "RNN - Réserves Naturelles Nationales",
           "ident": "",
-          "description": "Ensemble des réserves naturelles nationales",
+          "description": "Une réserve naturelle nationale est une aire protégée faisant partie des réserves naturelles en France et dont le statut est défini par la loi relative à la démocratie de proximité du 27 février 2002. C'est un outil de protection à long terme d'espaces, d'espèces ou d'objets géologiques.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -332,9 +306,9 @@
           }
         },
         {
-          "title": "Réserves naturelles régionales",
+          "title": "RNR - Réserves Naturelles Régionales",
           "ident": "",
-          "description": "Ensemble des réserves naturelles régionales",
+          "description": "Les réserves naturelles régionales présentent les mêmes caractéristiques de gestion que les réserves naturelles nationales, à ceci près qu’elles sont créées par les Régions. Elles constituent aujourd’hui à la fois un vecteur des stratégies régionales en faveur de la biodiversité et un outil de valorisation des territoires",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -346,9 +320,9 @@
           }
         },
         {
-          "title": "Arrêtés de protection d'habitats naturels",
+          "title": "APHN - Arrêtés de Protection d’Habitats Naturels",
           "ident": "",
-          "description": "Ensemble des arrêtés de protection d'habitats naturels",
+          "description": "Les APHN sont des arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -360,9 +334,9 @@
           }
         },
         {
-          "title": "Znieff1",
+          "title": "ZNIEFF1",
           "ident": "",
-          "description": "Ensemble des Znieff1",
+          "description": "En France, une zone naturelle d’intérêt écologique, faunistique et floristique, abrégée par le sigle ZNIEFF, est un espace naturel inventorié en raison de son caractère remarquable.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -374,9 +348,9 @@
           }
         },
         {
-          "title": "Znieff2",
+          "title": "ZNIEFF2",
           "ident": "",
-          "description": "Ensemble des Znieff2",
+          "description": "En France, une zone naturelle d’intérêt écologique, faunistique et floristique, abrégée par le sigle ZNIEFF, est un espace naturel inventorié en raison de son caractère remarquable.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -388,9 +362,9 @@
           }
         },
         {
-          "title": "Sites d'importance communautaire JOUE (ZSC,SIC)",
+          "title": "NATURA 2000 - Sites d'importance communautaire JOUE (ZSC,SIC)",
           "ident": "",
-          "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme. ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -402,9 +376,9 @@
           }
         },
         {
-          "title": "Sites d'importance communautaire JOUE (ZSC,SIC) (polygones remplis)",
+          "title": "NATURA 2000 - Sites d'importance communautaire JOUE (ZSC,SIC) (polygones remplis)",
           "ident": "",
-          "description": "Ensemble des sites d'importance communautaire JOUE (ZSC,SIC)",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme. ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -416,9 +390,9 @@
           }
         },
         {
-          "title": "Zones de protection spéciale",
+          "title": "NATURA 2000 - Zones de protection spéciale (ZPS)",
           "ident": "",
-          "description": "Ensemble des zones de protection spéciale",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme. ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -430,9 +404,9 @@
           }
         },
         {
-          "title": "Zones de protection des oiseaux",
+          "title": "NATURA 2000 - Zones de protection des oiseaux",
           "ident": "",
-          "description": "Ensemble des zones de protection des oiseaux",
+          "description": "Les directives 'Oiseaux et 'Habitats' sont le socle de la législation européenne en matière de conservation de la nature. Ces directives représentent l’initiative la plus ambitieuse et la plus vaste entreprise pour la conservation du patrimoine naturel européen. L'objectif général des deux directives est de veiller à ce que les espèces et les habitats d'intérêt communautaire soient maintenus ou restaurés dans un état de conservation favorable, et ce, dans l'ensemble de leur aire de répartition naturelle au sein de l'UE. L'objectif est de veiller à ce que les espèces et leurs habitats se rétablissent suffisamment pour leur permettre de s'épanouir à long terme. ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -460,7 +434,7 @@
         {
           "title": "Biens du patrimoine mondial de l'UNESCO",
           "ident": "",
-          "description": "",
+          "description": "Le patrimoine mondial ou patrimoine mondial de l'UNESCO désigne un ensemble de biens culturels et naturels présentant un intérêt exceptionnel pour l’héritage commun de l’humanité. Ce patrimoine fait l’objet d’un traité international intitulé « Convention pour la protection du patrimoine mondial, culturel et naturel », adopté par l’UNESCO en 1972, actualisé chaque année depuis 1978 par le Comité du patrimoine mondial de l'Organisation des Nations unies pour l'éducation, la science et la culture (UNESCO), une institution spécialisée de l'Organisation des Nations unies. ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -470,73 +444,11 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
-        }
-      ]
-    },
-    {
-      "title": "Littoral, eau et zone humide",
-      "ident": "",
-      "description": "Zones concernées par des lois concernant l'eau",
-      "type": "folder",
-      "children": [
-        {
-          "title": "Communes loi littoral",
-          "ident": "",
-          "description": "Ensemble des communes associées à la loi littoral",
-          "metadata_url": "",
-          "type": "wms_layer",
-          "params": {
-            "url": "http://ws.carmen.developpement-durable.gouv.fr/WMS/91/loi_littoral?",
-            "format": "image/png",
-            "name": "Loi_littoral_2020",
-            "style": "default",
-            "srs": "EPSG:4326"
-          }
-        },
-        {
-          "title": "Conservatoire du littoral : parcelles protégées",
-          "ident": "",
-          "description": "",
-          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "PROTECTEDAREAS.MNHN.CDL.PARCELS",
-            "srs": "EPSG:2154"
-          }
-        },
-        {
-          "title": "Conservatoire du littoral : périmètres autorisés",
-          "ident": "",
-          "description": "",
-          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "PROTECTEDAREAS.MNHN.CDL.PERIMETER",
-            "srs": "EPSG:2154"
-          }
-        },
-        {
-          "title": "PPR Inondation",
-          "ident": "99d6b8b6-9d94-4010-8ab7-814c6eed7965",
-          "description": "Zonage réglementaire des Plans de Prévention des Risques Inondation (France métropolitaine)",
-          "metadata_url": "",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://www.georisques.gouv.fr/services",
-            "format": "image/png",
-            "name": "PPRN_ZONE_INOND_FXX",
-            "style": "default",
-            "srs": "EPSG:2154"
-          }
         },
         {
           "title": "Sites Ramsar",
           "ident": "",
-          "description": "Ensemble des sites ramsar",
+          "description": "Un site Ramsar est la désignation d'une « zone humide d'importance internationale » inscrite sur la liste établie par la Convention de Ramsar par un État partie",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
           "params": {
@@ -550,16 +462,79 @@
       ]
     },
     {
-      "title": "Géoportail Urbanisme",
+      "title": "Risques - Géorisques",
       "ident": "",
-      "description": "Zones concernées par des lois concernant l'eau",
+      "description": "Ensemble des couches concernant les zones à risques - Géorisques",
+      "type": "folder",
+      "children": [
+        {
+          "title": "PPRI - Plan de prévention des risques naturels d'inondation",
+          "ident": "99d6b8b6-9d94-4010-8ab7-814c6eed7965",
+          "description": "Les PPRi constituent l'un des outils de la mise en œuvre de la politique de l'État en matière de prévention des inondations. Ils mettent en évidence les zones à risques, réglementent l'aménagement et les usages du sol, et définissent des mesures pour réduire la vulnérabilité des enjeux (personnes, biens et activités).",
+          "metadata_url": "",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "PPRN_ZONE_INOND_FXX",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "BASIAS - Anciens sites industriels et activités de service localisés",
+          "ident": "",
+          "description": "Base nationale recensant les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "BASIAS_LOCALISE",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "BASIAS - Anciens sites industriels et activités de service points + zones",
+          "ident": "",
+          "description": "Base nationale recensant les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement, ici on peut avoir l'emprise des activités",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "BASIAS_LOCALISE",
+            "style": "default",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "BASOL - Sites pollués ou potentiellement pollués appelant une action des pouvoirs publics, à titre préventif ou curatif",
+          "ident": "",
+          "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "SSP_INSTRUCTION",
+            "srs": "EPSG:2154"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Urbanisme - Géoportail Urbanisme/IGN",
+      "ident": "",
+      "description": "Ensembles des couches concernant à des éléments liés à l'urbanisme - Géoportail de l'urbanisme/IGN",
       "type": "folder",
       "children": [
         {
           "title": "Monuments historiques",
           "ident": "",
-          "description": "Monuments historiques",
-          "metadata_url": "",
+          "description": " Un monument historique est un immeuble (bâti ou non bâti : parc, jardin, grotte…) ou un objet mobilier (meuble ou immeuble par destination) recevant un statut juridique particulier destiné à le protéger pour son intérêt historique, artistique, architectural mais aussi technique ou scientifique afin qu’il soit conservé, restauré et mis en valeur.",
+          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
@@ -572,7 +547,7 @@
           "title": "Emprise des documents d'urbanisme (petite échelle)",
           "ident": "",
           "description": "Emprise des documents d'urbanisme (petite échelle)",
-          "metadata_url": "",
+          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
@@ -584,8 +559,8 @@
         {
           "title": "Documents d'urbanisme",
           "ident": "",
-          "description": "PLU, POS, CC",
-          "metadata_url": "",
+          "description": "PLU, POS, CC : Le plan local d'urbanisme (PLU) -anciennement plan d'occupation des sols (POS)- fixe les règles générales et les servitudes d'utilisation du sol sur la totalité du territoire communal. ",
+          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
@@ -597,13 +572,53 @@
         {
           "title": "Schéma de Cohérence Territoriale",
           "ident": "",
-          "description": "SCOT",
-          "metadata_url": "",
+          "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
+          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
             "name": "scot",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Conservatoire du littoral : parcelles protégées",
+          "ident": "",
+          "description": "Parcelles/terrains protégés par le Conservatoire du littoral",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.MNHN.CDL.PARCELS",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Conservatoire du littoral : périmètres autorisés",
+          "ident": "",
+          "description": "Zones à préserver définies par le Conservatoire et susceptibles d’être acquises par celui-ci. ",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.MNHN.CDL.PERIMETER",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Communes loi littoral",
+          "ident": "",
+          "description": "La loi Littoral concerne plus de 1 200 communes riveraines de la mer, mais aussi de grands lacs, d'estuaires ou de deltas. Face à la pression urbaine, aux phénomènes d'érosion ou de submersion marine subis par ces territoires, elle tente de concilier préservation et développement du littoral",
+          "metadata_url": "https://carmen.naturefrance.fr/",
+          "type": "wms_layer",
+          "params": {
+            "url": "http://ws.carmen.developpement-durable.gouv.fr/WMS/91/loi_littoral?",
+            "format": "image/png",
+            "name": "Loi_littoral_2020",
+            "style": "default",
             "srs": "EPSG:4326"
           }
         }
