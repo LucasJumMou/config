@@ -1,13 +1,13 @@
 {
-  "title": "EnercoopCo - version du 1er mars 2023",
+  "title": "EnercoopCo - version du 28 mars 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
   "children": [
     {
-      "title": "Fonds de cartes - OpenStreetMap/BD Ortho IGN",
+      "title": "Fonds de cartes",
       "ident": "",
-      "description": "Ensemble de fonds de cartes OpenStreetMap et BD Ortho IGN",
+      "description": "Fonds de carte IGN, OpenStreetMap, etc.",
       "metadata_url": "",
       "type": "folder",
       "children": [
@@ -41,17 +41,17 @@
       ]
     },
     {
-      "title": "Occupation du sol - IGN",
+      "title": "Occupation du sol",
       "ident": "",
-      "description": "Couches permettant l'identification de l'occupation du sol, attention la précision de CLC est relative, celle-ci ne permet pas d'avoir une identification parfaite des entités au sol",
+      "description": "Différentes couches d'occupation du sol",
       "metadata_url": "",
       "type": "folder",
       "children": [
         {
-          "title": "OCS GE - Occupation du sol grande échelle - couverture",
+          "title": "OCS GE - Couverture du sol",
           "ident": "",
-          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
-          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
           "type": "wms_ortho_layer",
           "params": {
             "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
@@ -62,10 +62,24 @@
           }
         },
         {
-          "title": "CLC - Corine Land Cover 2018",
+          "title": "OCS GE - Usage du sol",
           "ident": "",
-          "description": "Corine Land Cover est une base de données européenne d’occupation biophysique des sols. Ce projet, lancé en 1985 est piloté par l'Agence européenne de l'environnement et couvre 39 États. Cette base de données est l'une des composantes du projet européen GMES et fait partie du champ de la directive européenne INSPIRE.",
-          "metadata_url": "https://geoservices.ign.fr/services-web-experts-clc",
+          "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "OCSGE.USAGE",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Corine Land Cover 2018",
+          "ident": "",
+          "description": "Inventaire biophysique européen de l’occupation des sols à l'échelle 1:100000. CLC permet de cartographier des unités homogènes d’occupation des sols d’une surface minimale de 25 ha.",
+          "metadata_url": "https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/clc/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -77,14 +91,14 @@
       ]
     },
     {
-      "title": "Environnements - IGN",
+      "title": "Environnement",
       "ident": "",
-      "description": "Ensemble des couches environnements de l'IGN",
+      "description": "Zonages environnementaux diffusés par l'IGN",
       "metadata_url": "",
       "type": "folder",
       "children": [
         {
-          "title": "Parcs nationaux",
+          "title": "Parcs Nationaux (PN)",
           "ident": "",
           "description": "Un parc national est une portion de territoire dans laquelle la faune, la flore et le milieu naturel en général sont protégés des activités humaines.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
@@ -97,7 +111,7 @@
           }
         },
         {
-          "title": "APB - Arrêtés de Protection de Biotope",
+          "title": "Arrêtés de Protection de Biotope (APB)",
           "ident": "",
           "description": "Les arrêtés de protection de biotope (APB ou APPB) sont des actes administratifs pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
@@ -110,7 +124,7 @@
           }
         },
         {
-          "title": "APG - Arrêtés de Protection de Géotope",
+          "title": "Arrêtés de Protection de Géotope (APG)",
           "ident": "",
           "description": "Les arrêtés de protection de biotope (APB ou APPB) sont des actes administratifs pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
@@ -123,7 +137,7 @@
           }
         },
         {
-          "title": "RB - Réserves Biologiques",
+          "title": "Réserves Biologiques (RBiol)",
           "ident": "",
           "description": "Une réserve biologique (selon les types réserve biologique domaniale » (RBD), réserve biologique dirigée » (RBD) ou réserve biologique intégrale » (RBI)) est, en France, un type d'aire protégée située en forêt, souvent non-ouverte au public, mais pas systématiquement ; ayant l’objectif de protéger des habitats ou espèces particulièrement représentatifs du milieu forestier et/ou vulnérables1. Elles ont un statut distinct de celui des réserves intégrales de parc national.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
@@ -136,7 +150,7 @@
           }
         },
         {
-          "title": "RNN - Réserves Naturelles Nationales",
+          "title": "Réserves Naturelles Nationales (RNN)",
           "ident": "",
           "description": "Une réserve naturelle nationale est une aire protégée faisant partie des réserves naturelles en France et dont le statut est défini par la loi relative à la démocratie de proximité du 27 février 2002. C'est un outil de protection à long terme d'espaces, d'espèces ou d'objets géologiques.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
@@ -149,7 +163,7 @@
           }
         },
         {
-          "title": "RNR - Réserves Naturelles Régionales",
+          "title": "Réserves Naturelles Régionales (RNR)",
           "ident": "",
           "description": "Les réserves naturelles régionales présentent les mêmes caractéristiques de gestion que les réserves naturelles nationales, à ceci près qu’elles sont créées par les Régions. Elles constituent aujourd’hui à la fois un vecteur des stratégies régionales en faveur de la biodiversité et un outil de valorisation des territoires",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
