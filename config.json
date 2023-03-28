@@ -536,6 +536,45 @@
             "name": "SSP_INSTRUCTION",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Surface inondable - Aléa submersion rare ou millénial - France métropolitaine - Rapportage 2020",
+          "ident": "",
+          "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "ALEA_SYNT_03_04FAI_FXX",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Surface inondable - Aléa submersion moyen ou centennal - France métropolitaine - Rapportage 2020",
+          "ident": "",
+          "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "ALEA_SYNT_03_02MOY_FXX",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Surface inondable - Aléa débordement de cours d'eau fréquent ou décennal - France métropolitaine - Rapportage 2020",
+          "ident": "",
+          "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+          "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "ALEA_SYNT_01_01FOR_FXX",
+            "srs": "EPSG:2154"
+          }
         }
       ]
     },
