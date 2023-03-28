@@ -285,7 +285,7 @@
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2021",
             "style": "normal",
