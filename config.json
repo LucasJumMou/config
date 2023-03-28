@@ -37,7 +37,16 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
-        },
+        }
+      ]
+    },
+    {
+        "title": "Occupation du sol - IGN",
+        "ident": "",
+        "description": "Couches permettant l'identification de l'occupation du sol, attention la précision de CLC est relative, celle-ci ne permet pas d'avoir une identification parfaite des entités au sol",
+        "metadata_url": "",
+        "type": "folder",
+        "children": [
         {
           "title": "OGE - Occupation du sol grande échelle - couverture",
           "ident": "",
