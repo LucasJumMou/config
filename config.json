@@ -283,11 +283,12 @@
           "ident": "",
           "description": "Le registre parcellaire graphique est un logiciel et un système d’information géographique permettant l’identification des parcelles agricoles. Il se compose d'environ 7 000 000 d'objets graphiques, îlots, couvrant le territoire français de métropole et d'outre mer",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
-          "type": "wms_layer",
+          "type": "wms_ortho_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2021",
+            "style": "normal",
             "srs": "EPSG:2154"
           }
         }
