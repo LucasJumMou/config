@@ -39,7 +39,7 @@
           }
         },
         {
-          "title": "Occupation du sol grande échelle - couverture",
+          "title": "OGE - Occupation du sol grande échelle - couverture",
           "ident": "",
           "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
@@ -49,6 +49,19 @@
             "format": "image/png",
             "name": "OCSGE.COUVERTURE",
             "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "CLC - Corine Land Cover 2018",
+          "ident": "",
+          "description": "Corine Land Cover est une base de données européenne d’occupation biophysique des sols. Ce projet, lancé en 1985 est piloté par l'Agence européenne de l'environnement et couvre 39 États. Cette base de données est l'une des composantes du projet européen GMES et fait partie du champ de la directive européenne INSPIRE.",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-clc",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/clc/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "LANDCOVER.CLC18_FR",
             "srs": "EPSG:3857"
           }
         }
