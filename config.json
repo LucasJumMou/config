@@ -48,7 +48,7 @@
         "type": "folder",
         "children": [
         {
-          "title": "OGE - Occupation du sol grande échelle - couverture",
+          "title": "OCS GE - Occupation du sol grande échelle - couverture",
           "ident": "",
           "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
