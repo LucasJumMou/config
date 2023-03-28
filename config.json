@@ -41,12 +41,12 @@
       ]
     },
     {
-        "title": "Occupation du sol - IGN",
-        "ident": "",
-        "description": "Couches permettant l'identification de l'occupation du sol, attention la précision de CLC est relative, celle-ci ne permet pas d'avoir une identification parfaite des entités au sol",
-        "metadata_url": "",
-        "type": "folder",
-        "children": [
+      "title": "Occupation du sol - IGN",
+      "ident": "",
+      "description": "Couches permettant l'identification de l'occupation du sol, attention la précision de CLC est relative, celle-ci ne permet pas d'avoir une identification parfaite des entités au sol",
+      "metadata_url": "",
+      "type": "folder",
+      "children": [
         {
           "title": "OCS GE - Occupation du sol grande échelle - couverture",
           "ident": "",
@@ -275,6 +275,19 @@
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
             "format": "image/png",
             "name": "PROTECTEDAREAS.RNCF",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "RPG - Registre parcellaire graphique 2021",
+          "ident": "",
+          "description": "Le registre parcellaire graphique est un logiciel et un système d’information géographique permettant l’identification des parcelles agricoles. Il se compose d'environ 7 000 000 d'objets graphiques, îlots, couvrant le territoire français de métropole et d'outre mer",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities",
+            "format": "image/png",
+            "name": "LANDUSE.AGRICULTURE2021",
             "srs": "EPSG:2154"
           }
         }
