@@ -41,6 +41,29 @@
       ]
     },
     {
+      "title": "BD Ortho - Historique",
+      "ident": "",
+      "description": "Différentes couches d'occupation du sol",
+      "metadata_url": "",
+      "type": "folder",
+      "children": [
+        {
+          "title": "OCS GE - Couverture du sol",
+          "ident": "",
+          "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "OCSGE.COUVERTURE",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        }
+      ]
+    },  
+    {
       "title": "Occupation du sol",
       "ident": "",
       "description": "Différentes couches d'occupation du sol",
