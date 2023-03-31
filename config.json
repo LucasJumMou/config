@@ -52,7 +52,7 @@
             "srs": "EPSG:2154"
           }
         },
-                {
+        {
           "title": "Carte topographique (IGN Scan25)",
           "ident": "",
           "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
@@ -62,6 +62,20 @@
             "url": "https://wxs.ign.fr/5ht7g8l8hdvkcin9otlghmrf/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Cartes IGN",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/5ht7g8l8hdvkcin9otlghmrf/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "GEOGRAPHICALGRIDSYSTEMS.MAPS",
             "style": "normal",
             "srs": "EPSG:3857"
           }
