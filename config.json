@@ -87,7 +87,7 @@
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/cartes/scanoaci",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://geoservices.ign.fr/documentation/donnees/cartes/scanoaci",
+            "url": "https://wxs.ign.fr/5ht7g8l8hdvkcin9otlghmrf/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-OACI",
             "style": "normal",
