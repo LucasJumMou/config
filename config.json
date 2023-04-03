@@ -114,7 +114,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2021",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -128,7 +128,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2020",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -142,7 +142,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2019",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -156,7 +156,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2018",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -168,9 +168,9 @@
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
-            "name": "LANDUSE.AGRICULTURE217",
+            "name": "LANDUSE.AGRICULTURE2017",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -184,7 +184,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2016",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -198,7 +198,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2015",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -212,7 +212,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2014",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -226,7 +226,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2013",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -240,7 +240,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2012",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -254,7 +254,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2011",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -268,7 +268,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2010",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -282,7 +282,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2009",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -296,7 +296,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2008",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -310,7 +310,7 @@
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2007",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         }
       ]
