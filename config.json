@@ -97,7 +97,7 @@
       ]
     },
     {
-      "title": "RPG - Registre parcellaire graphique - Historique",
+      "title": "RPG",
       "ident": "",
       "description": "Ensemble des RPG des dernières années",
       "metadata_url": "",
@@ -788,7 +788,7 @@
       ]
     },
     {
-      "title": "Risques - Géorisques",
+      "title": "Géorisques",
       "ident": "",
       "description": "Ensemble des couches concernant les zones à risques - Géorisques",
       "type": "folder",
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "title": "Urbanisme - Géoportail Urbanisme/IGN",
+      "title": "Géoportail Urbanisme/IGN",
       "ident": "",
       "description": "Ensembles des couches concernant à des éléments liés à l'urbanisme - Géoportail de l'urbanisme/IGN",
       "type": "folder",
@@ -999,6 +999,58 @@
             "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
             "style": "PCI%20vecteur",
             "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Prescriptions",
+          "ident": "",
+          "description": "",
+          "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "prescription",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Transport de gaz, hydrocarbures et produits chimiques",
+          "ident": "",
+          "description": "Le transport d'énergie électrique est le mouvement massif d'énergie électrique d'un site de production, tel qu'une centrale électrique, à un poste électrique.",
+          "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "gaz_hydrocarbures_produits_chimiques",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Prescriptions des PSMV",
+          "ident": "",
+          "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
+          "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "prescription_psmv",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Prescriptions des PSMV",
+          "ident": "",
+          "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
+          "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "format": "image/png",
+            "name": "prescription_psmv",
+            "srs": "EPSG:4326"
           }
         }
       ]
