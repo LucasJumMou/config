@@ -99,7 +99,7 @@
           "ident": "",
           "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
-          "type": "wms_ortho_layer",
+          "type": "wmts_olayer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
