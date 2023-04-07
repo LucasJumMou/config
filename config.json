@@ -93,9 +93,18 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Ortho historique",
+      "ident": "",
+      "description": "Ensemble des ortho des dernières années",
+      "metadata_url": "",
+      "type": "folder",
+      "children": [
         {
-          "title": "Test bd ortho",
+          "title": "Photographies aériennes 2020",
           "ident": "",
           "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
@@ -109,8 +118,9 @@
           }
         }
       ]
-    },
+    },  
     {
+      
       "title": "RPG",
       "ident": "",
       "description": "Ensemble des RPG des dernières années",
