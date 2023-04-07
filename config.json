@@ -116,6 +116,342 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
+        },
+        {
+          "title": "Photographies aériennes 2019",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2019",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2018",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2018",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2017",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2017",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2016",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2016",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2015",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2015",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2014",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2014",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2013",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2013",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2012",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2012",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2011",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2011",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2010",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2010",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2009",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2009",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2008",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2008",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2007",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2007",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2006",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2006",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2005",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2005",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2004",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2004",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2003",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2003",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2002",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2002",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2001",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2001",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2000",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2000",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2011-2015",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2011-2015",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2006-2010",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2006-2010",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 2000-2005",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS2000-2005",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Photographies aériennes 1950-1965",
+          "ident": "",
+          "description": "Les produits BD ORTHO® (Base de Données Orthophotographique) et ORTHO HR® (Orthophotographie Haute Résolution) sont des collections de mosaïques numériques d'orthophotographies en couleurs, rectifiées dans la projection légale spécifique adaptée au territoire couvert. Ces produits se composent d'images numériques géoréférencées (sans habillage ni surcharge).",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/la-bd-orthor",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
         }
       ]
     },  
