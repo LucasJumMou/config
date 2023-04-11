@@ -1492,6 +1492,20 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
+        },
+        {
+          "title": "Lignes électriques",
+          "ident": "",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/topographie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "UTILITYANDGOVERNMENTALSERVICES.ALL",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
         }
       ]
     }
