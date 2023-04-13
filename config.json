@@ -13,7 +13,7 @@
       "children": [
         {
           "title": "Carte IGN",
-          "ident": "",
+          "ident": "Carte_IGN",
           "description": "Fond cartographique proposé par l’IGN.",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -27,7 +27,7 @@
         },
         {
           "title": "Plan IGN",
-          "ident": "",
+          "ident": "Plan_IGN",
           "description": "Fond cartographique proposé par l’IGN.",
           "metadata_url": "https://www.geoportail.gouv.fr/actualites/plan-ign-la-nouvelle-reference-cartographique",
           "type": "wms_plan_layer",
@@ -1335,6 +1335,19 @@
             "name": "ALEA_SYNT_01_01FOR_FXX",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Canalisations de transport de matières dangereuses : Gaz, Hydrocarbures, Produits chimiques",
+          "ident": "",
+          "description": "Il s’agit d’une canalisation qui achemine du gaz naturel, des produits pétroliers ou chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+          "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+          "type": "wms_urba_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "CANALISATIONS",
+            "srs": "EPSG:2154"
+          }
         }
       ]
     },
@@ -1448,19 +1461,6 @@
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
             "name": "gaz_hydrocarbures_produits_chimiques",
-            "srs": "EPSG:4326"
-          }
-        },
-        {
-          "title": "Prescriptions des PSMV",
-          "ident": "",
-          "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
-          "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-          "type": "wms_urba_layer",
-          "params": {
-            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
-            "format": "image/png",
-            "name": "prescription_psmv",
             "srs": "EPSG:4326"
           }
         },
