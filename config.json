@@ -5,6 +5,24 @@
   "type": "folder",
   "children": [
     {
+      "title": "Test / Ne pas toucher",
+      "ident": "",
+      "description": "",
+      "type": "folder",
+      "children": [
+        {
+          "title": "VectorTest",
+          "ident": "VectorTest",
+          "description": "",
+          "metadata_url": "",
+          "type": "vector_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
+          }
+        }
+      ]
+    },
+    {
       "title": "Fonds de cartes",
       "ident": "",
       "description": "Fonds de cartes IGN, OpenStreetMap, etc.",
@@ -1502,24 +1520,6 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
-        },
-        {
-          "title": "Test / Ne pas toucher",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
-            {
-              "title": "VectorTest",
-              "ident": "VectorTest",
-              "description": "",
-              "metadata_url": "",
-              "type": "vector_layer",
-              "params": {
-                "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
-              }
-            }
-          ]
         }
       ]
     }
