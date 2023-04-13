@@ -41,7 +41,7 @@
         },
         {
           "title": "Carte topographique (IGN Scan25)",
-          "ident": "",
+          "ident": "Carte_topographique_(IGN_Scan25)",
           "description": "Carte topographique au 1 : 25 000 Type 2010.",
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/cartes/scan25",
           "type": "wms_ortho_layer",
@@ -55,7 +55,7 @@
         },
         {
           "title": "OpenStreetMap - Style Google Maps",
-          "ident": "bd64ad68-a2c6-4ddc-a720-140cf66956aa",
+          "ident": "OpenStreetMap_Style_Google_Maps",
           "description": "Fond de plan OpenStreetMap élaboré par GéoGrandEst - OSM style Google Maps",
           "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
           "type": "wms_layer",
@@ -68,7 +68,7 @@
         },
         {
           "title": "Cartes aéronautiques OACI-VFR",
-          "ident": "",
+          "ident": "Cartes_aéronautiques_OACI-VFR",
           "description": "Cartes aéronautiques au 1:500 000 réalisées par l'IGN en partenariat avec le Service de l’Information Aéronautique (SIA) réglementant le vol à vue (ou visual flight rules, VFR).",
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/cartes/scanoaci",
           "type": "wms_ortho_layer",
@@ -82,9 +82,9 @@
         },
         {
           "title": "ADMINEXPRESS COG",
-          "ident": "",
-          "description": "",
-          "metadata_url": "",
+          "ident": "ADMINEXPRESS_COG",
+          "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte : Contient les Régions, Départements, EPCI, Métropoles, Communes.",
+          "metadata_url": "https://geoservices.ign.fr/adminexpress",
           "type": "wms_ortho_layer",
           "params": {
             "url": "https://wxs.ign.fr/administratif/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -105,7 +105,7 @@
       "children": [
         {
           "title": "BD ORTHO 50cm",
-          "ident": "",
+          "ident": "BD_ORTHO_50cm",
           "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
           "metadata_url": "https://geoservices.ign.fr/bdortho",
           "type": "wms_ortho_layer",
@@ -119,7 +119,7 @@
         },
         {
           "title": "BD ORTHO 20cm",
-          "ident": "",
+          "ident": "BD_ORTHO_20cm",
           "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -133,7 +133,7 @@
         },
         {
           "title": "ORTHO infra-rouge couleur (IRC)",
-          "ident": "",
+          "ident": "ORTHO_infra-rouge_couleur_(IRC)",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -147,7 +147,7 @@
         },
         {
           "title": "Ortho Express 2022",
-          "ident": "",
+          "ident": "Ortho_Express_2022",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
           "type": "wms_ortho_layer",
@@ -163,14 +163,14 @@
     },
     {
       "title": "Image aérienne historique (IGN)",
-      "ident": "",
+      "ident": "Image_aérienne_historique_(IGN)",
       "description": "Données Ortho® anciennes éditions et historiques.",
       "metadata_url": "https://geoservices.ign.fr/documentation/donnees/ortho/bdorthohisto",
       "type": "folder",
       "children": [
         {
           "title": "Photographies aériennes 2020",
-          "ident": "",
+          "ident": "Photographies_aériennes_2020",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -184,7 +184,7 @@
         },
         {
           "title": "Photographies aériennes 2019",
-          "ident": "",
+          "ident": "Photographies_aériennes_2019",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -198,7 +198,7 @@
         },
         {
           "title": "Photographies aériennes 2018",
-          "ident": "",
+          "ident": "Photographies_aériennes_2018",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -212,7 +212,7 @@
         },
         {
           "title": "Photographies aériennes 2017",
-          "ident": "",
+          "ident": "Photographies_aériennes_2017",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -226,7 +226,7 @@
         },
         {
           "title": "Photographies aériennes 2016",
-          "ident": "",
+          "ident": "Photographies_aériennes_2016",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -240,7 +240,7 @@
         },
         {
           "title": "Photographies aériennes 2015",
-          "ident": "",
+          "ident": "Photographies_aériennes_2015",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -254,7 +254,7 @@
         },
         {
           "title": "Photographies aériennes 2014",
-          "ident": "",
+          "ident": "Photographies_aériennes_2014",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -268,7 +268,7 @@
         },
         {
           "title": "Photographies aériennes 2013",
-          "ident": "",
+          "ident": "Photographies_aériennes_2013",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -282,7 +282,7 @@
         },
         {
           "title": "Photographies aériennes 2012",
-          "ident": "",
+          "ident": "Photographies_aériennes_2012",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -296,7 +296,7 @@
         },
         {
           "title": "Photographies aériennes 2011",
-          "ident": "",
+          "ident": "Photographies_aériennes_2011",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -310,7 +310,7 @@
         },
         {
           "title": "Photographies aériennes 2010",
-          "ident": "",
+          "ident": "Photographies_aériennes_2010",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -324,7 +324,7 @@
         },
         {
           "title": "Photographies aériennes 2009",
-          "ident": "",
+          "ident": "Photographies_aériennes_2009",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -338,7 +338,7 @@
         },
         {
           "title": "Photographies aériennes 2008",
-          "ident": "",
+          "ident": "Photographies_aériennes_2008",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -352,7 +352,7 @@
         },
         {
           "title": "Photographies aériennes 2007",
-          "ident": "",
+          "ident": "Photographies_aériennes_2007",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -366,7 +366,7 @@
         },
         {
           "title": "Photographies aériennes 2006",
-          "ident": "",
+          "ident": "Photographies_aériennes_2006",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -380,7 +380,7 @@
         },
         {
           "title": "Photographies aériennes 2005",
-          "ident": "",
+          "ident": "Photographies_aériennes_2005",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -394,7 +394,7 @@
         },
         {
           "title": "Photographies aériennes 2004",
-          "ident": "",
+          "ident": "Photographies_aériennes_2004",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -408,7 +408,7 @@
         },
         {
           "title": "Photographies aériennes 2003",
-          "ident": "",
+          "ident": "Photographies_aériennes_2003",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -422,7 +422,7 @@
         },
         {
           "title": "Photographies aériennes 2002",
-          "ident": "",
+          "ident": "Photographies_aériennes_2002",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -436,7 +436,7 @@
         },
         {
           "title": "Photographies aériennes 2001",
-          "ident": "",
+          "ident": "Photographies_aériennes_2001",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -450,7 +450,7 @@
         },
         {
           "title": "Photographies aériennes 2000",
-          "ident": "",
+          "ident": "Photographies_aériennes_2000",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -464,7 +464,7 @@
         },
         {
           "title": "Photographies aériennes 2011-2015",
-          "ident": "",
+          "ident": "Photographies_aériennes_2011-2015",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -478,7 +478,7 @@
         },
         {
           "title": "Photographies aériennes 2006-2010",
-          "ident": "",
+          "ident": "Photographies_aériennes_2006-2010",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -492,7 +492,7 @@
         },
         {
           "title": "Photographies aériennes 2000-2005",
-          "ident": "",
+          "ident": "Photographies_aériennes_2000-2005",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -506,7 +506,7 @@
         },
         {
           "title": "Photographies aériennes 1950-1965",
-          "ident": "",
+          "ident": "Photographies_aériennes_1950-1965",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
@@ -529,7 +529,7 @@
       "children": [
         {
           "title": "Altitude - Carte du relief",
-          "ident": "",
+          "ident": "Altitude_Carte du relief",
           "description": "Représentation de l’altitude sous forme de teintes hypsométriques (fausses couleurs). ",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
           "type": "wms_ortho_layer",
@@ -543,7 +543,7 @@
         },
         {
           "title": "Carte des pentes",
-          "ident": "",
+          "ident": "Carte_des_pentes",
           "description": "Représentation des classes de pentes supérieures à 30°, 35°, 40°, et 45° obtenues par traitement du MNT RGE ALTI au pas de 1m.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-des-pentes",
           "type": "wms_ortho_layer",
@@ -557,7 +557,7 @@
         },
         {
           "title": "Courbes de niveau",
-          "ident": "",
+          "ident": "Courbes_de_niveau",
           "description": "Modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude »",
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/alti/courbes-de-niveau",
           "type": "wms_ortho_layer",
@@ -580,7 +580,7 @@
       "children": [
         {
           "title": "Registre Parcellaire Graphique (RPG) - Dernière édition",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_(RPG)_Dernière édition",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -594,7 +594,7 @@
         },
         {
           "title": "Bandes tampons des cours d'eau BCAE 4",
-          "ident": "",
+          "ident": "Bandes_tampons_des_cours_d'eau_BCAE_4",
           "description": "Cours d’eau concernés par les règles des Bonnes Conditions Agricoles et Environnementales (BCAE) de la PAC et devant rester bordés d'une bande enherbée.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/cours-eau-bcae-2021",
           "type": "wms_ortho_layer",
@@ -608,7 +608,7 @@
         },
         {
           "title": "Prairies sensibles BCAE 9",
-          "ident": "",
+          "ident": "Prairies_sensibles_BCAE 9",
           "description": "Prairies permanentes désignées comme écologiquement sensibles au titre des règles des bonnes conditions agricoles et environnementales (BCAE)",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/prairies-sensibles-bcae",
           "type": "wms_ortho_layer",
@@ -622,7 +622,7 @@
         },
         {
           "title": "Parcelles AOC viticoles",
-          "ident": "",
+          "ident": "Parcelles_AOC_viticoles",
           "description": "Délimitations parcellaires AOC viticoles diffusées par l'INAO.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/inao-aoc-viticoles-parcellaire",
           "type": "wms_ortho_layer",
@@ -636,7 +636,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2021",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2021",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -650,7 +650,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2020",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2020",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -664,7 +664,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2019",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2019",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -678,7 +678,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2018",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2018",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -692,7 +692,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2017",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2017",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -706,7 +706,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2016",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2016",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -720,7 +720,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2015",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2015",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -734,7 +734,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2014",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2014",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -748,7 +748,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2013",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2013",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -762,7 +762,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2012",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2012",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -776,7 +776,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2011",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2011",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -790,7 +790,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2010",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2010",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -804,7 +804,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2009",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2009",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -818,7 +818,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2008",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2008",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -832,7 +832,7 @@
         },
         {
           "title": "Registre Parcellaire Graphique (RPG) 2007",
-          "ident": "",
+          "ident": "Registre_Parcellaire_Graphique_2007",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ortho_layer",
@@ -855,7 +855,7 @@
       "children": [
         {
           "title": "OCS GE - Couverture du sol",
-          "ident": "",
+          "ident": "OCS_GE_Couverture du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
           "type": "wms_ortho_layer",
@@ -869,7 +869,7 @@
         },
         {
           "title": "OCS GE - Usage du sol",
-          "ident": "",
+          "ident": "OCS_GE_Usage du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
           "type": "wms_ortho_layer",
@@ -883,7 +883,7 @@
         },
         {
           "title": "Corine Land Cover 2018",
-          "ident": "",
+          "ident": "Corine_Land_Cover_2018",
           "description": "Inventaire biophysique européen de l’occupation des sols à l'échelle 1:100000. CLC permet de cartographier des unités homogènes d’occupation des sols d’une surface minimale de 25 ha.",
           "metadata_url": "https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0",
           "type": "wms_layer",
@@ -891,20 +891,6 @@
             "url": "https://wxs.ign.fr/clc/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
             "format": "image/png",
             "name": "LANDCOVER.CLC18_FR",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Délimitation parcellaire AOC viticole",
-          "ident": "",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "Aire-Parcellaire",
-            "style": "normal",
             "srs": "EPSG:3857"
           }
         }
@@ -918,7 +904,7 @@
       "children": [
         {
           "title": "Arrêtés de Protection de Biotope (APB)",
-          "ident": "",
+          "ident": "Arrêtés_de_Protection_de_Biotope_(APB)",
           "description": "Actes administratifs préféctoraux pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/cdc54288-665e-48d1-9cdf-ef563e100798",
           "type": "wms_layer",
@@ -932,7 +918,7 @@
         },
         {
           "title": "Arrêtés de Protection d’Habitats Naturels (APHN)",
-          "ident": "",
+          "ident": "Arrêtés_de_Protection_d’Habitats_Naturels_(APHN)",
           "description": "Arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ec3e4da1-da04-4e63-924c-1dfa69bc2989",
           "type": "wms_layer",
@@ -946,7 +932,7 @@
         },
         {
           "title": "Arrêtés de Protection de Géotope (APG)",
-          "ident": "",
+          "ident": "Arrêtés_de_Protection_de_Géotope_(APG)",
           "description": "Outil de protection réglementaire des sites figurant sur la liste départementale des sites d’intérêt géologique",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/3666668b-9553-4942-9462-2699b42d89f7",
           "type": "wms_layer",
@@ -959,7 +945,7 @@
         },
         {
           "title": "Biens du patrimoine mondial de l'UNESCO",
-          "ident": "",
+          "ident": "Biens_du_patrimoine_mondial_de_l'UNESCO",
           "description": "Biens inscrits sur la liste du patrimoine mondial de l'UNESCO du fait de leur valeur patrimoniale exceptionnelle.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ea950812-5a72-4540-bf3f-868efc5bbcc3",
           "type": "wms_layer",
@@ -973,7 +959,7 @@
         },
         {
           "title": "Géoparcs mondiaux UNESCO",
-          "ident": "",
+          "ident": "Géoparcs_mondiaux_UNESCO",
           "description": "Territoires labellisés par l’UNESCO où l’élément géologique patrimonial est le support pour des projets de protection, de développements du territoire et d’éducation.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/d5b93447-0802-4799-b64f-bf6d0aadbb87",
           "type": "wms_layer",
@@ -986,7 +972,7 @@
         },
         {
           "title": "Inventaire du Patrimoine géologique National (INPG)",
-          "ident": "",
+          "ident": "Inventaire_du_Patrimoine_géologique_National_(INPG)",
           "description": "Programme recensant les sites géologiques d’intérêt patrimonial sur la plateforme InvenTerre",
           "metadata_url": "https://inventerre.mnhn.fr/accueil",
           "type": "wms_layer",
@@ -999,7 +985,7 @@
         },
         {
           "title": "Parcs Nationaux (PN)",
-          "ident": "",
+          "ident": "Parcs_Nationaux_(PN)",
           "description": "Vaste espace protégé dont le patrimoine naturel, culturel et paysager est exceptionnel. Classiquement composé de 2 zones : le cœur de parc et une aire d'adhésion.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/53286c20-c2b0-4c6f-b877-7afeafbe39dc",
           "type": "wms_layer",
@@ -1013,7 +999,7 @@
         },
         {
           "title": "Parcs Naturels Régionaux (PNR)",
-          "ident": "",
+          "ident": "Parcs_Naturels_Régionaux_(PNR)",
           "description": "Outils de valorisation de vastes espaces de fort intérêt culturel et naturel.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/951d23fd-bf2f-4a23-88b5-2ca8622e1cd1",
           "type": "wms_layer",
@@ -1027,7 +1013,7 @@
         },
         {
           "title": "Réserves Biologiques (RBiol)",
-          "ident": "",
+          "ident": "Réserves_Biologiques_(RBiol)",
           "description": "Espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes).",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/71a5f31d-3ef5-4c45-bd31-39141154e277",
           "type": "wms_layer",
@@ -1041,7 +1027,7 @@
         },
         {
           "title": "Réserves de Biosphère (RBios)",
-          "ident": "",
+          "ident": "Réserves_de_Biosphère_(RBios)",
           "description": "Réserves naturelles reconnues par le Programme sur l’Homme et la Biosphère créé par l’UNESCO.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/016307b9-5d14-4f61-873f-a41691d13a7b",
           "type": "wms_layer",
@@ -1055,7 +1041,7 @@
         },
         {
           "title": "Réserves Intégrales de Parcs Nationaux (RIPN)",
-          "ident": "",
+          "ident": "Réserves_Intégrales_de_Parcs_Nationaux_(RIPN)",
           "description": "Créées au sein d'un coeur de PN afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5ca16eed-0bc0-4e56-94b4-219fc400b68c",
           "type": "wms_layer",
@@ -1069,7 +1055,7 @@
         },
         {
           "title": "Réserves Naturelles Nationales (RNN)",
-          "ident": "",
+          "ident": "Réserves_Naturelles_Nationales_(RNN)",
           "description": "Aires protégeant à long terme des espaces, espèces ou objets géologiques.",
           "metadata_url": "",
           "type": "wms_layer",
@@ -1083,7 +1069,7 @@
         },
         {
           "title": "Réserves Naturelles Régionales (RNR)",
-          "ident": "",
+          "ident": "Réserves_Naturelles_Régionales_(RNR)",
           "description": "Identiques aux RNN dans leur gestion, mais créées par les Régions.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
@@ -1097,7 +1083,7 @@
         },
         {
           "title": "Réserves Nationales de Chasse et de Faune Sauvage (RNCFS)",
-          "ident": "",
+          "ident": "Réserves_Nationales_de_Chasse_et_de_Faune_Sauvage_(RNCFS)",
           "description": "Réserves gérées par l'Office Français de la Biodiversité (OFB) ou un autre établissement public visant à la protection d’espèces de faune sauvage menacées.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f305b23f-7439-4cd6-9403-3f18563a7a6e",
           "type": "wms_layer",
@@ -1111,7 +1097,7 @@
         },
         {
           "title": "Conservatoires d'Espaces Naturels - Sites Acquis (CEN-SA)",
-          "ident": "",
+          "ident": "Conservatoires_d'Espaces Naturels_Sites_Acquis_(CEN-SA)",
           "description": "Sites acquis et/ou « assimilés » (bail emphytéotique et contrat de plus de 18 ans) dont les CEN ont pleinement la maîtrise foncière.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
           "type": "wms_layer",
@@ -1125,7 +1111,7 @@
         },
         {
           "title": "Conservatoires d'Espaces Naturels - Sites Gérés (CEN-SG)",
-          "ident": "",
+          "ident": "Conservatoires_d'Espaces_Naturels_Site_Gérés_(CEN-SG)",
           "description": "Sites gérés (location, gestion de moins de 18 ans, convention de gestion) par les CEN.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
           "type": "wms_layer",
@@ -1139,7 +1125,7 @@
         },
         {
           "title": "Conservatoire du Littoral (CDL) - Terrains acquis",
-          "ident": "",
+          "ident": "Conservatoire_du_Littoral_(CDL)_Terrains_acquis",
           "description": "Terrains acquis par le Conservatoire du Littoral pour la sauvegarde des espaces côtiers et lacustres.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5a24eed8-f8c9-4554-98d8-9d7fb364efb6",
           "type": "wms_layer",
@@ -1153,7 +1139,7 @@
         },
         {
           "title": "Conservatoire du Littoral (CDL) - Périmètres autorisés",
-          "ident": "",
+          "ident": "Conservatoire_du_Littoral_(CDL)_Périmètres autorisés",
           "description": "Zones à préserver définies par le Conservatoire et susceptibles d’être acquises par celui-ci.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
           "type": "wms_layer",
@@ -1166,7 +1152,7 @@
         },        
         {
           "title": "Zones humides protégées par la Convention de Ramsar",
-          "ident": "",
+          "ident": "Zones_humides_protégées_par_la_Convention_de_Ramsar",
           "description": "Zones humides d'importance internationale inscrite sur la liste établie par la Convention de Ramsar",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
           "type": "wms_layer",
@@ -1180,7 +1166,7 @@
         },
         {
           "title": "ZNIEFF1",
-          "ident": "",
+          "ident": "ZNIEFF1",
           "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 1, définies par la présence d’espèces ou de milieux rares, remarquables ou caractéristiques.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f30dd410-9c72-47f5-a384-96603ddc703e",
           "type": "wms_layer",
@@ -1194,7 +1180,7 @@
         },
         {
           "title": "ZNIEFF2",
-          "ident": "",
+          "ident": "ZNIEFF2",
           "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 2 : grands ensembles naturels ou peu modifiés offrant des potentialités biologiques importantes. Moins remarquables que les ZNIEFF1.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/50bc6286-83f6-4494-9fb6-3d82a43cafa8",
           "type": "wms_layer",
@@ -1208,7 +1194,7 @@
         },
         {
           "title": "Zones Importantes pour la Conservation des Oiseaux (ZICO)",
-          "ident": "",
+          "ident": "Zones_Importantes_pour_la_Conservation_des_Oiseaux_(ZICO)",
           "description": "Les ZICO ont servi de base pour établir les Zones de Protection Spéciale (ZPS) Natura2000  ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/inv/zico",
           "type": "wms_layer",
@@ -1222,7 +1208,7 @@
         },
         {
           "title": "Natura 2000 - Zones de Protection Spéciale (ZPS) - Directive Oiseaux",
-          "ident": "",
+          "ident": "Natura_2000_Zones_de_Protection_Spéciale_(ZPS)_Directive Oiseaux",
           "description": "Zones visant la conservation des espèces d'oiseaux sauvages figurant à l'annexe I de la Directive europénne Oiseaux.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/c334eb2e-634e-479a-b867-8bf352e5827f",
           "type": "wms_layer",
@@ -1236,7 +1222,7 @@
         },
         {
           "title": "Natura 2000 - Zones Spéciales de Conservation (ZSC/SIC) - Directive Habitats",
-          "ident": "",
+          "ident": "Natura_2000_Zones_Spéciales_de_Conservation_(ZSC/SIC)_Directive_Habitats",
           "description": "Désignées dans le droit français comme ZSC, ces zones sont des Sites d'Importance Communautaire (SIC) au sens de l'UE et de la Directive 'Habitats, Faune, Flore'.",
           "metadata_url": "https://www.nord.gouv.fr/Actions-de-l-Etat/Environnement/Nature-et-biodiversite/Natura-2000/Natura-2000-ZPS-ZSC-SIC-DOCOB",
           "type": "wms_layer",
@@ -1258,7 +1244,7 @@
       "children": [
         {
           "title": " Base des Anciens Sites Industriels et Activités de Service (BASIAS)",
-          "ident": "",
+          "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
           "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
           "type": "wms_layer",
@@ -1272,7 +1258,7 @@
         },
         {
           "title": "Sites et Sols Pollués ou potentiellement pollués (SSP, ex-BASOL)",
-          "ident": "",
+          "ident": "Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)",
           "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol",
           "type": "wms_urba_layer",
@@ -1285,7 +1271,7 @@
         },
         {
           "title": "Plan de Prévention des Risques d'inondation (PPRi)",
-          "ident": "99d6b8b6-9d94-4010-8ab7-814c6eed7965",
+          "ident": "Plan_de_Prévention_des_Risques_d'inondation_(PPRi)",
           "description": "",
           "metadata_url": "",
           "type": "wms_layer",
@@ -1299,7 +1285,7 @@
         },
         {
           "title": "Surface inondable - Aléa submersion rare ou millénial - France métropolitaine - Rapportage 2020",
-          "ident": "",
+          "ident": "Surface_inondable_Aléa_submersion_rare_ou_millénial",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
           "type": "wms_urba_layer",
@@ -1312,7 +1298,7 @@
         },
         {
           "title": "Surface inondable - Aléa submersion moyen ou centennal - France métropolitaine - Rapportage 2020",
-          "ident": "",
+          "ident": "Surface_inondable_Aléa_submersion_moyen_ou_centennal",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
           "type": "wms_urba_layer",
@@ -1325,7 +1311,7 @@
         },
         {
           "title": "Surface inondable - Aléa débordement de cours d'eau fréquent ou décennal - France métropolitaine - Rapportage 2020",
-          "ident": "",
+          "ident": "Surface_inondable_Aléa_débordement_de_cours_d'eau_fréquent_ou_décennal",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees?s=basol#data-search-result",
           "type": "wms_urba_layer",
@@ -1338,7 +1324,7 @@
         },
         {
           "title": "Canalisations de transport de matières dangereuses : Gaz, Hydrocarbures, Produits chimiques",
-          "ident": "",
+          "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine du gaz naturel, des produits pétroliers ou chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
           "type": "wms_urba_layer",
@@ -1359,7 +1345,7 @@
       "children": [
         {
           "title": "Monuments historiques",
-          "ident": "",
+          "ident": "Monuments_historiques",
           "description": " Un monument historique est un immeuble (bâti ou non bâti : parc, jardin, grotte…) ou un objet mobilier (meuble ou immeuble par destination) recevant un statut juridique particulier destiné à le protéger pour son intérêt historique, artistique, architectural mais aussi technique ou scientifique afin qu’il soit conservé, restauré et mis en valeur.",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
@@ -1372,7 +1358,7 @@
         },
         {
           "title": "Emprise des documents d'urbanisme (petite échelle)",
-          "ident": "",
+          "ident": "Emprise_des_documents_d'urbanisme_(petite échelle)",
           "description": "Emprise des documents d'urbanisme (petite échelle)",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
@@ -1385,7 +1371,7 @@
         },
         {
           "title": "PLU - Documents d'urbanisme",
-          "ident": "",
+          "ident": "PLU_Documents_d'urbanisme",
           "description": "PLU, POS, CC : Le plan local d'urbanisme (PLU) -anciennement plan d'occupation des sols (POS)- fixe les règles générales et les servitudes d'utilisation du sol sur la totalité du territoire communal. ",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
@@ -1398,7 +1384,7 @@
         },
         {
           "title": "SCOT - Schéma de Cohérence Territoriale",
-          "ident": "",
+          "ident": "SCOT_Schéma_de_Cohérence_Territoriale",
           "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_urba_layer",
@@ -1412,7 +1398,7 @@
 
         {
           "title": "Communes loi littoral",
-          "ident": "",
+          "ident": "Communes_loi_littoral",
           "description": "La loi Littoral concerne plus de 1 200 communes riveraines de la mer, mais aussi de grands lacs, d'estuaires ou de deltas. Face à la pression urbaine, aux phénomènes d'érosion ou de submersion marine subis par ces territoires, elle tente de concilier préservation et développement du littoral",
           "metadata_url": "https://carmen.naturefrance.fr/",
           "type": "wms_layer",
@@ -1426,7 +1412,7 @@
         },
         {
           "title": "PCI - Plan Cadastral Informatisé Vecteur",
-          "ident": "",
+          "ident": "PCI",
           "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
           "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
           "type": "wms_ortho_layer",
@@ -1440,7 +1426,7 @@
         },
         {
           "title": "Prescriptions",
-          "ident": "",
+          "ident": "Prescriptions",
           "description": "",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
           "type": "wms_urba_layer",
@@ -1453,7 +1439,7 @@
         },
         {
           "title": "Transport de gaz, hydrocarbures et produits chimiques",
-          "ident": "",
+          "ident": "Transport_de_gaz_hydrocarbures_et_produits_chimiques",
           "description": "Le transport d'énergie électrique est le mouvement massif d'énergie électrique d'un site de production, tel qu'une centrale électrique, à un poste électrique.",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
           "type": "wms_urba_layer",
@@ -1466,7 +1452,7 @@
         },
         {
           "title": "Prescriptions des PSMV",
-          "ident": "",
+          "ident": "Prescriptions_des_PSMV",
           "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
           "type": "wms_urba_layer",
@@ -1479,7 +1465,7 @@
         },
         {
           "title": "Aéroports",
-          "ident": "",
+          "ident": "Aéroports",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
