@@ -1502,6 +1502,14 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
+        },
+        {
+          "title": "Test / Ne pas toucher",
+          "ident": "",
+          "description": "",
+          "type": "folder",
+          "children": [
+          ]
         }
       ]
     }
