@@ -1532,8 +1532,8 @@
           }
         },
         {
-          "title": "Plan IGN Vector Tiles",
-          "ident": "Plan_IGN_Vector_Tiles",
+          "title": "BD TOPO Vector Tiles",
+          "ident": "BD TOPO Vector_Tiles",
           "description": "",
           "metadata_url": "",
           "type": "vector_layer",
