@@ -5,14 +5,14 @@
   "type": "folder",
   "children": [
     {
-      "title": "Test / Ne pas toucher",
+      "title": "Couches Vector Tiles",
       "ident": "",
       "description": "",
       "type": "folder",
       "children": [
         {
-          "title": "VectorTest",
-          "ident": "VectorTest",
+          "title": "ADMINEXPRESS Vector Tiles",
+          "ident": "ADMINEXPRESS_Vector_Tiles",
           "description": "",
           "metadata_url": "",
           "type": "vector_layer",
