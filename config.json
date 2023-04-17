@@ -5,24 +5,6 @@
   "type": "folder",
   "children": [
     {
-      "title": "Couches Vector Tiles",
-      "ident": "",
-      "description": "",
-      "type": "folder",
-      "children": [
-        {
-          "title": "ADMINEXPRESS Vector Tiles",
-          "ident": "ADMINEXPRESS_Vector_Tiles",
-          "description": "",
-          "metadata_url": "",
-          "type": "vector_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
-          }
-        }
-      ]
-    },
-    {
       "title": "Fonds de cartes",
       "ident": "",
       "description": "Fonds de cartes IGN, OpenStreetMap, etc.",
@@ -1519,6 +1501,24 @@
             "name": "TRANSPORTNETWORKS.RUNWAYS",
             "style": "normal",
             "srs": "EPSG:3857"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Couches Vector Tiles (en test, dernière version plugin requise)",
+      "ident": "",
+      "description": "",
+      "type": "folder",
+      "children": [
+        {
+          "title": "ADMINEXPRESS Vector Tiles",
+          "ident": "ADMINEXPRESS_Vector_Tiles",
+          "description": "",
+          "metadata_url": "",
+          "type": "vector_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
           }
         }
       ]
