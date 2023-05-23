@@ -897,9 +897,9 @@
       ]
     },
     {
-      "title": "Environnement (INPN)",
+      "title": "Environnement",
       "ident": "",
-      "description": "Zonages environnementaux diffusés pas l'Inventaire National du Patrimoine Naturel (INPN).",
+      "description": "Zonages environnementaux diffusés pas l'Inventaire National du Patrimoine Naturel (INPN) et de la Direction Régionale de l'Environnement, de l'Aménagement et du Logement d'Occitanie (DREAL).",
       "type": "folder",
       "children": [
         {
@@ -1235,32 +1235,40 @@
           }
         },
         {
-          "title": "PNA Aigle de Bonelli - Domaines vitaux",
-          "ident": "PNA_Aigle_de_Bonelli_Domaines_vitaux",
-          "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
-          "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/5d6e6a05-094a-43f7-a881-b70a60a6df60",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://datacarto.picto-occitanie.fr/wms",
-            "format": "image/png",
-            "name": "r_pnaaigledebonelli_dv_s_000",
-            "style": "",
-            "srs": "EPSG:2154"
-          }
-        },
-        {
-          "title": "PNA Aigle de Bonelli - Zones d’erratisme",
-          "ident": "PNA_Aigle_de_Bonelli_Zones-d’erratisme",
-          "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
-          "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/8b070f45-92e3-4840-a11d-fd7816f3072c",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://datacarto.picto-occitanie.fr/wms",
-            "format": "image/png",
-            "name": "r_pnaaigledebonelli_er_s_000",
-            "style": "",
-            "srs": "EPSG:2154"
-          }
+          "title": "Occitanie",
+          "ident": "",
+          "description": "",
+          "type": "folder",
+          "children": [
+            {
+              "title": "PNA Aigle de Bonelli - Domaines vitaux",
+              "ident": "PNA_Aigle_de_Bonelli_Domaines_vitaux",
+              "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
+              "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/5d6e6a05-094a-43f7-a881-b70a60a6df60",
+              "type": "wms_layer",
+              "params": {
+                "url": "https://datacarto.picto-occitanie.fr/wms",
+                "format": "image/png",
+                "name": "r_pnaaigledebonelli_dv_s_000",
+                "style": "",
+                "srs": "EPSG:2154"
+              }
+            },
+            {
+              "title": "PNA Aigle de Bonelli - Zones d’erratisme",
+              "ident": "PNA_Aigle_de_Bonelli_Zones-d’erratisme",
+              "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
+              "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/8b070f45-92e3-4840-a11d-fd7816f3072c",
+              "type": "wms_layer",
+              "params": {
+                "url": "https://datacarto.picto-occitanie.fr/wms",
+                "format": "image/png",
+                "name": "r_pnaaigledebonelli_er_s_000",
+                "style": "",
+                "srs": "EPSG:2154"
+              }
+            }
+        ]
         }
       ]
     },
@@ -1567,24 +1575,6 @@
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/topographie/{z}/{x}/{y}.pbf"
           }
-        },
-        {
-          "title": "Couches Vector Tiles",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
-            {
-            "title": "Plan IGN Vector Tiles",
-            "ident": "Plan_IGN_Vector_Tiles",
-            "description": "",
-            "metadata_url": "",
-            "type": "vector_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/PLAN.IGN/{z}/{x}/{y}.pbf"
-            }
-          }
-        ]
         }
       ]
     }
