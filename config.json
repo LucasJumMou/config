@@ -1573,7 +1573,18 @@
           "ident": "",
           "description": "",
           "type": "folder",
-          "children": []
+          "children": [
+            {
+            "title": "Plan IGN Vector Tiles",
+            "ident": "Plan_IGN_Vector_Tiles",
+            "description": "",
+            "metadata_url": "",
+            "type": "vector_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/PLAN.IGN/{z}/{x}/{y}.pbf"
+            }
+          }
+        ]
         }
       ]
     }
