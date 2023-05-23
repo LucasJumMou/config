@@ -1261,23 +1261,7 @@
             "style": "",
             "srs": "EPSG:2154"
           }
-        },
-        {
-          "title": "Occitanie",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
-            {
-              "title": "ADMINEXPRESS Vector Tiles",
-              "ident": "ADMINEXPRESS_Vector_Tiles",
-              "description": "",
-              "metadata_url": "",
-              "type": "vector_layer",
-              "params": {
-                "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
-              }
-            }
+        }
       ]
     },
     {
@@ -1583,6 +1567,13 @@
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/topographie/{z}/{x}/{y}.pbf"
           }
+        },
+        {
+          "title": "Couches Vector Tiles",
+          "ident": "",
+          "description": "",
+          "type": "folder",
+          "children": []
         }
       ]
     }
