@@ -1827,265 +1827,369 @@
       "type": "folder",
       "children": [
         {
-          "title": "Capacité d'accueil techniquement disponible des postes électriques",
-          "ident": "Capacité d'accueil techniquement disponible des postes électriques",
+          "title": "Autres",
+          "ident": "",
           "description": "",
-          "metadata_url": "",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "CAPACITE.ACCUEIL.ELECTRIQUE",
-            "style": "CAPACITE.ACCUEIL.ELECTRIQUE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Cartographie des accès biomethane",
-          "ident": "Cartographie des accès biomethane",
+          "type": "folder",
+          "children": [
+          {
+            "title": "Capacité d'accueil techniquement disponible des postes électriques",
+            "ident": "Capacité d'accueil techniquement disponible des postes électriques",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_enr_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "CAPACITE.ACCUEIL.ELECTRIQUE",
+              "style": "CAPACITE.ACCUEIL.ELECTRIQUE",
+              "srs": "EPSG:3857"
+            }
+            },
+            {
+              "title": "Cartographie des accès biomethane",
+              "ident": "Cartographie des accès biomethane",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "ACCES.BIOMETHANE",
+                "style": "ACCES.BIOMETHANE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
+              "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "BESOIN.CHALEUR.INDUSTRIEL",
+                "style": "BESOIN.CHALEUR.INDUSTRIEL",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
+              "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "BESOIN.CHALEUR.RESIDENTIEL",
+                "style": "BESOIN.CHALEUR.RESIDENTIEL",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
+              "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "BESOIN.CHALEUR.TERTIAIRE",
+                "style": "BESOIN.CHALEUR.TERTIAIRE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Estimations des besoins de froid du secteur tertiaire",
+              "ident": "Estimations des besoins de froid du secteur tertiaire",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "BESOIN.FROID.TERTIAIRE",
+                "style": "BESOIN.FROID.TERTIAIRE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des installations de production de chaleur par Biogaz",
+              "ident": "Localisation des installations de production de chaleur par Biogaz",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
+                "style": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des installations de production de chaleur par incinération des déchets",
+              "ident": "Localisation des installations de production de chaleur par incinération des déchets",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "SITE.PRODUCTION.CHALEUR.DECHETS",
+                "style": "SITE.PRODUCTION.CHALEUR.DECHETS",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des installations de production de chaleur par méthanisation",
+              "ident": "Localisation des installations de production de chaleur par méthanisation",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "SITE.PRODUCTION.CHALEUR.METHANISATON",
+                "style": "SITE.PRODUCTION.CHALEUR.METHANISATON",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
+              "ident": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "SITE.PRODUCTION.CHALEUR.COGENERATION",
+                "style": "SITE.PRODUCTION.CHALEUR.COGENERATION",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des points d'injection de biométhane",
+              "ident": "Localisation des points d'injection de biométhane",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POINTS.INJECTION.BIOMETHANE",
+                "style": "POINTS.INJECTION.BIOMETHANE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des réseaux de chaleur et de froid en France",
+              "ident": "Localisation des réseaux de chaleur et de froid en France",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "SITE.PRODUCTION.CHALEUR.RC",
+                "style": "SITE.PRODUCTION.CHALEUR.RC",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Potentiel de développement des réseaux de chaleur en PACA",
+              "ident": "Potentiel de développement des réseaux de chaleur en PACA",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POTENTIEL.RESEAU.CHALEUR.PACA",
+                "style": "POTENTIEL.RESEAU.CHALEUR.PACA",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
+              "ident": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
+                "style": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Potentiel de développement des réseaux de froid en PACA",
+              "ident": "Potentiel de développement des réseaux de froid en PACA",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POTENTIEL.RESEAU.FROID.PACA",
+                "style": "POTENTIEL.RESEAU.FROID.PACA",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Potentiel géothermique en PACA",
+              "ident": "Potentiel géothermique en PACA",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POTENTIEL.GEOTHERMIE",
+                "style": "POTENTIEL.GEOTHERMIE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Localisation des points d'injection de biométhane",
+              "ident": "Localisation des points d'injection de biométhane",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POINTS.INJECTION.BIOMETHANE",
+                "style": "POINTS.INJECTION.BIOMETHANE",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "Puissance cumulée des installations hydrauliques par commune",
+              "ident": "Puissance cumulée des installations hydrauliques par commune",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_ortho_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "PROD.INSTALLATION.HYDRO",
+                "style": "PROD.INSTALLATION.HYDRO",
+                "srs": "EPSG:3857"
+              }
+            },
+            {
+          "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
+          "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
-            "name": "ACCES.BIOMETHANE",
-            "style": "ACCES.BIOMETHANE",
+            "name": "PART.ENR.COMMUNE",
+            "style": "PART.ENR.COMMUNE",
             "srs": "EPSG:3857"
           }
+          }
+          ]
         },
         {
-          "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
-          "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
+          "title": "Eolien",
+          "ident": "",
           "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "BESOIN.CHALEUR.INDUSTRIEL",
-            "style": "BESOIN.CHALEUR.INDUSTRIEL",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
-          "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "BESOIN.CHALEUR.RESIDENTIEL",
-            "style": "BESOIN.CHALEUR.RESIDENTIEL",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
-          "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "BESOIN.CHALEUR.TERTIAIRE",
-            "style": "BESOIN.CHALEUR.TERTIAIRE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Estimations des besoins de froid du secteur tertiaire",
-          "ident": "Estimations des besoins de froid du secteur tertiaire",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "BESOIN.FROID.TERTIAIRE",
-            "style": "BESOIN.FROID.TERTIAIRE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des installations de production de chaleur par Biogaz",
-          "ident": "Localisation des installations de production de chaleur par Biogaz",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
-            "style": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des installations de production de chaleur par incinération des déchets",
-          "ident": "Localisation des installations de production de chaleur par incinération des déchets",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "SITE.PRODUCTION.CHALEUR.DECHETS",
-            "style": "SITE.PRODUCTION.CHALEUR.DECHETS",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des installations de production de chaleur par méthanisation",
-          "ident": "Localisation des installations de production de chaleur par méthanisation",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "SITE.PRODUCTION.CHALEUR.METHANISATON",
-            "style": "SITE.PRODUCTION.CHALEUR.METHANISATON",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
-          "ident": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "SITE.PRODUCTION.CHALEUR.COGENERATION",
-            "style": "SITE.PRODUCTION.CHALEUR.COGENERATION",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
+          "type": "folder",
+          "children": [
+          {
           "title": "Localisation des mâts éolien",
           "ident": "Localisation des mâts éolien",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LOCALISATION.MATS.EOLIEN",
             "style": "LOCALISATION.MATS.EOLIEN",
             "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Puissance cumulée des installations éoliennes par commune",
+            "ident": "Puissance cumulée des installations éoliennes par commune",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_ortho_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "PROD.INSTALLATION.EOLIEN",
+              "style": "PROD.INSTALLATION.EOLIEN",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Zones à enjeux pour l'installation d'éoliennes",
+            "ident": "Zones à enjeux pour l'installation d'éoliennes",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_ortho_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
+              "style": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Potentiel éolien terrestre - gisement de vent à 140m",
+            "ident": "Potentiel éolien terrestre - gisement de vent à 140m",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_urba_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
+              "format": "image/png",
+              "name": "POTENTIEL.VENT.140M",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Potentiel éolien terrestre - gisement de vent à 160m",
+            "ident": "Potentiel éolien terrestre - gisement de vent à 160m",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_urba_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
+              "format": "image/png",
+              "name": "POTENTIEL.VENT.160M",
+              "srs": "EPSG:3857"
+            }
           }
+        ]
         },
         {
-          "title": "Localisation des points d'injection de biométhane",
-          "ident": "Localisation des points d'injection de biométhane",
+          "title": "Photovoltaique",
+          "ident": "",
           "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POINTS.INJECTION.BIOMETHANE",
-            "style": "POINTS.INJECTION.BIOMETHANE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des réseaux de chaleur et de froid en France",
-          "ident": "Localisation des réseaux de chaleur et de froid en France",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "SITE.PRODUCTION.CHALEUR.RC",
-            "style": "SITE.PRODUCTION.CHALEUR.RC",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel de développement des réseaux de chaleur en PACA",
-          "ident": "Potentiel de développement des réseaux de chaleur en PACA",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.RESEAU.CHALEUR.PACA",
-            "style": "POTENTIEL.RESEAU.CHALEUR.PACA",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
-          "ident": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
-            "style": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel de développement des réseaux de froid en PACA",
-          "ident": "Potentiel de développement des réseaux de froid en PACA",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.RESEAU.FROID.PACA",
-            "style": "POTENTIEL.RESEAU.FROID.PACA",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel géothermique en PACA",
-          "ident": "Potentiel géothermique en PACA",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.GEOTHERMIE",
-            "style": "POTENTIEL.GEOTHERMIE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Localisation des points d'injection de biométhane",
-          "ident": "Localisation des points d'injection de biométhane",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POINTS.INJECTION.BIOMETHANE",
-            "style": "POINTS.INJECTION.BIOMETHANE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
+          "type": "folder",
+          "children": [
+          {
           "title": "Potentiel solaire sur toiture (méthode simplifiée)",
           "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
           "description": "",
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "POTENTIEL.SOLAIRE.BATIMENT",
             "style": "POTENTIEL.SOLAIRE.BATIMENT",
@@ -2099,38 +2203,10 @@
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "POTENTIEL.SOLAIRE.FRICHE",
             "style": "POTENTIEL.SOLAIRE.FRICHE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Puissance cumulée des installations éoliennes par commune",
-          "ident": "Puissance cumulée des installations éoliennes par commune",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "PROD.INSTALLATION.EOLIEN",
-            "style": "PROD.INSTALLATION.EOLIEN",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Puissance cumulée des installations hydrauliques par commune",
-          "ident": "Puissance cumulée des installations hydrauliques par commune",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "PROD.INSTALLATION.HYDRO",
-            "style": "PROD.INSTALLATION.HYDRO",
             "srs": "EPSG:3857"
           }
         },
@@ -2141,24 +2217,10 @@
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "PROD.INSTALLATION.PV",
             "style": "PROD.INSTALLATION.PV",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
-          "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "PART.ENR.COMMUNE",
-            "style": "PART.ENR.COMMUNE",
             "srs": "EPSG:3857"
           }
         },
@@ -2169,26 +2231,14 @@
           "metadata_url": "",
           "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "POTENTIEL.SOLAIRE.PARKING500",
             "style": "POTENTIEL.SOLAIRE.PARKING500",
             "srs": "EPSG:3857"
           }
-        },
-        {
-          "title": "Zones à enjeux pour l'installation d'éoliennes",
-          "ident": "Zones à enjeux pour l'installation d'éoliennes",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ortho_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
-            "style": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
-            "srs": "EPSG:3857"
-          }
+        }
+      ]
         }
       ]
     },
