@@ -1831,7 +1831,7 @@
           "ident": "Capacité d'accueil techniquement disponible des postes électriques",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
             "format": "image/png",
