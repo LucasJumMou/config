@@ -1370,16 +1370,17 @@
       "type": "folder",
       "children": [
         {
-          "title": "PLU - Documents d'urbanisme",
-          "ident": "PLU_Documents_d'urbanisme",
-          "description": "PLU, POS, CC : Le plan local d'urbanisme (PLU) -anciennement plan d'occupation des sols (POS)- fixe les règles générales et les servitudes d'utilisation du sol sur la totalité du territoire communal. ",
-          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-          "type": "wms_urba_layer",
+          "title": "PCI - Plan Cadastral Informatisé Vecteur",
+          "ident": "PCI",
+          "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
+          "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
+          "type": "wms_ortho_layer",
           "params": {
-            "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
-            "name": "du",
-            "srs": "EPSG:4326"
+            "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
+            "style": "PCI%20vecteur",
+            "srs": "EPSG:3857"
           }
         }
       ]
