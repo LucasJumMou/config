@@ -1,5 +1,5 @@
 {
-  "title": "EnercoopCo - version du 03 August 2023",
+  "title": "Webservices_Enercoop - version du 09 octobre 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -1485,8 +1485,8 @@
             {
               "title": "Capacité d'accueil techniquement disponible des postes électriques",
               "ident": "Capacité d'accueil techniquement disponible des postes électriques",
-              "description": "",
-              "metadata_url": "",
+              "description": "Capacité d'accueil par poste source (en MW) pour le raccordement aux réseaux de transport (HTB) et de distribution (HTA) des installations de production d'électricité.",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/capacites-daccueil-du-reseau/",
               "type": "wms_enr_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1499,8 +1499,8 @@
             {
               "title": "Cartographie des accès biomethane",
               "ident": "Cartographie des accès biomethane",
-              "description": "",
-              "metadata_url": "",
+              "description": "Accordement optimal des projets d’injection d’une zone en minimisant les coûts d’adaptation des réseaux pour la collectivité.",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/cartographie-biomethane-dacces-aux-reseaux/",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1514,7 +1514,7 @@
               "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1528,7 +1528,7 @@
               "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1542,7 +1542,7 @@
               "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1556,7 +1556,7 @@
               "title": "Estimations des besoins de froid du secteur tertiaire",
               "ident": "Estimations des besoins de froid du secteur tertiaire",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1569,8 +1569,8 @@
             {
               "title": "Localisation des installations de production de chaleur par Biogaz",
               "ident": "Localisation des installations de production de chaleur par Biogaz",
-              "description": "",
-              "metadata_url": "",
+              "description": "Localisation des unités de Biogaz déjà en production",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1584,7 +1584,7 @@
               "title": "Localisation des installations de production de chaleur par incinération des déchets",
               "ident": "Localisation des installations de production de chaleur par incinération des déchets",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1889,6 +1889,71 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Sandre (Eau)",
+      "ident": "",
+      "description": "Données relatives aux services d'administration nationale des données et référentiels sur l'eau (SANDRE)",
+      "metadata_url": "https://www.sandre.eaufrance.fr/",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Segments de classement de continuité écologique - liste 1",
+          "ident": "Segments de classement de continuité écologique - liste 1",
+          "description": "Un Classement de Continuité Ecologique correspond à tout ou partie d'un cours ou d'un canal identifié. Le classement en liste 1 a pour vocation de protéger certains cours d’eau des dégradations et permet d’afficher un objectif de préservation à long terme. ",
+          "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://services.sandre.eaufrance.fr/geo/sandre",
+            "format": "image/png",
+            "name": "SegClassContinuiteEcoListe1",
+            "style": "",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Segments de classement de continuité écologique - liste 2",
+          "ident": "Segments de classement de continuité écologique - liste 2",
+          "description": "Un Classement de Continuité Ecologique correspond à tout ou partie d'un cours ou d'un canal identifié. La liste 2 annule, replace et complète la notion de « rivières classées », elle permet d’assurer rapidement la compatibilité des ouvrages existants avec les objectifs de continuité écologique. ",
+          "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://services.sandre.eaufrance.fr/geo/sandre",
+            "format": "image/png",
+            "name": "SegClassContinuiteEcoListe2",
+            "style": "",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Segments de classement de continuité écologique - liste 1/2",
+          "ident": "Segments de classement de continuité écologique - liste 1/2",
+          "description": "Combinaison des listes de continuités écologiques 1 et 2",
+          "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://services.sandre.eaufrance.fr/geo/sandre",
+            "format": "image/png",
+            "name": "SegClassContinuiteEco",
+            "style": "",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Cours d'eau - BD Carthage",
+          "ident": "Cours d'eau - BD Carthage",
+          "description": "Entité hydrographique, une entité hydrographique est un cours d’eau naturel ou aménagé, un bras naturel ou aménagé, une voie d’eau artificielle (canal,…), un plan d’eau ou une ligne littorale",
+          "metadata_url": "https://geo.data.gouv.fr/fr/datasets/ee5c709c9b7ff928ab2529b79ce6e879c4de6950",
+          "type": "wms_ortho_layer",
+          "params": {
+            "url": "https://services.sandre.eaufrance.fr/geo/sandre",
+            "format": "image/png",
+            "name": "CoursEau",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
         }
       ]
     },
