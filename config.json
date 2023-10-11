@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 10 octobre 2023",
+  "title": "Webservices_Enercoop - version du 11 octobre 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -1596,8 +1596,8 @@
             {
               "title": "Localisation des installations de production de chaleur par incinération des déchets",
               "ident": "Localisation des installations de production de chaleur par incinération des déchets",
-              "description": "",
-              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
+              "description": "Localisation des unités de production de chaleur par incinération des déchets en service",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/reseaux-chaleur-et-energies-recuperation",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1610,8 +1610,8 @@
             {
               "title": "Localisation des installations de production de chaleur par méthanisation",
               "ident": "Localisation des installations de production de chaleur par méthanisation",
-              "description": "",
-              "metadata_url": "",
+              "description": "Localisation des unités de production de chaleur par méthanisation en service",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1625,7 +1625,7 @@
               "title": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
               "ident": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.ecologie.gouv.fr/chaleur-recuperation-des-processus-industriels",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1639,7 +1639,7 @@
               "title": "Localisation des points d'injection de biométhane",
               "ident": "Localisation des points d'injection de biométhane",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1653,7 +1653,7 @@
               "title": "Localisation des réseaux de chaleur et de froid en France",
               "ident": "Localisation des réseaux de chaleur et de froid en France",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/les-reseaux-chaleur-en-france",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1667,7 +1667,7 @@
               "title": "Potentiel de développement des réseaux de chaleur en PACA",
               "ident": "Potentiel de développement des réseaux de chaleur en PACA",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1681,7 +1681,7 @@
               "title": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
               "ident": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1695,7 +1695,7 @@
               "title": "Potentiel de développement des réseaux de froid en PACA",
               "ident": "Potentiel de développement des réseaux de froid en PACA",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1709,7 +1709,7 @@
               "title": "Potentiel géothermique en PACA",
               "ident": "Potentiel géothermique en PACA",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.geothermies.fr/sites/default/files/inline-files/10._geothermie_en_provence_alpes_cote_dazur.pdf",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1723,7 +1723,7 @@
               "title": "Localisation des points d'injection de biométhane",
               "ident": "Localisation des points d'injection de biométhane",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1751,7 +1751,7 @@
               "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
               "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1773,7 +1773,7 @@
               "title": "Localisation des mâts éolien",
               "ident": "Localisation des mâts éolien",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1787,7 +1787,7 @@
               "title": "Puissance cumulée des installations éoliennes par commune",
               "ident": "Puissance cumulée des installations éoliennes par commune",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1801,7 +1801,7 @@
               "title": "Zones à enjeux pour l'installation d'éoliennes",
               "ident": "Zones à enjeux pour l'installation d'éoliennes",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1815,7 +1815,7 @@
               "title": "Potentiel éolien terrestre - gisement de vent à 140m",
               "ident": "Potentiel éolien terrestre - gisement de vent à 140m",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
               "type": "wms_urba_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
@@ -1828,7 +1828,7 @@
               "title": "Potentiel éolien terrestre - gisement de vent à 160m",
               "ident": "Potentiel éolien terrestre - gisement de vent à 160m",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
               "type": "wms_urba_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
@@ -1849,7 +1849,7 @@
               "title": "Potentiel solaire sur toiture (méthode simplifiée)",
               "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.cerema.fr/fr/actualites/comment-identifier-potentiel-installation-panneaux-solaires",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1863,7 +1863,7 @@
               "title": "Potentiel solaire au sol - friches susceptibles d’accueillir des installations photovoltaïques",
               "ident": "Potentiel solaire au sol - friches susceptibles d’accueillir des installations photovoltaïques",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://presse.ademe.fr/2019/05/etude-limportant-potentiel-des-friches-et-des-parkings-pour-developper-lenergie-photovoltaique.html",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -1877,7 +1877,7 @@
               "title": "Puissance cumulée des installations photovoltaïques par commune",
               "ident": "Puissance cumulée des installations photovoltaïques par commune",
               "description": "",
-              "metadata_url": "",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/installations-de-production-de-la-filiere-solaire-par-commune/",
               "type": "wms_ortho_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
