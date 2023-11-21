@@ -116,7 +116,21 @@
             "style": "normal",
             "srs": "EPSG:3857"
           }
+        },
+        {
+        "title": "PLEIADES - 2022",
+        "ident": "PLEIADES - 2022",
+        "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
+        "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
+        "type": "wms_ign_layer",
+        "params": {
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022",
+          "style": "normal",
+          "srs": "EPSG:3857"
         }
+      }
       ]
     },
     {
