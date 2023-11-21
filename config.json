@@ -2331,12 +2331,12 @@
           "ident": "Test Geoplateforme",
           "description": "Test Geoplateforme",
           "metadata_url": "https://geoservices.ign.fr/services-geoplateforme-diffusion",
-          "type": "wms_ign_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/jpeg",
+            "format": "image/png",
             "name": "CADASTRALPARCELS.PARCELS",
-            "style": "bdparcellaire",
+            "style": "bdparcellaire_b",
             "srs": "EPSG:3857"
           }
         }
