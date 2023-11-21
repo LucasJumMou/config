@@ -1191,6 +1191,20 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Zonage informatif des obligations légales de débroussaillement",
+          "ident": "Zonage informatif des obligations légales de débroussaillement",
+          "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local. ",
+          "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "DEBROUSSAILLEMENT",
+            "style": "nolegend",
+            "srs": "EPSG:3857"
+          }
         }
       ]
     },
