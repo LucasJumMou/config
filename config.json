@@ -54,7 +54,7 @@
         },
         {
           "title": "PLEIADES - 2022",
-          "ident": "PLEIADES-2022",
+          "ident": "PLEIADES_2022",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
           "type": "wms_ign_layer",
@@ -68,7 +68,7 @@
         },
         {
           "title": "SPOT - 2021",
-          "ident": "SPOT-2021",
+          "ident": "SPOT_2021",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "",
           "type": "wms_ign_layer",
