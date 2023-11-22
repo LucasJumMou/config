@@ -54,7 +54,7 @@
         },
         {
           "title": "PLEIADES - 2022",
-          "ident": "PLEIADES - 2022",
+          "ident": "PLEIADES-2022",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
           "type": "wms_ign_layer",
@@ -68,7 +68,7 @@
         },
         {
           "title": "SPOT - 2021",
-          "ident": "SPOT - 2021",
+          "ident": "SPOT-2021",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "",
           "type": "wms_ign_layer",
@@ -1222,21 +1222,7 @@
         },
         {
           "title": "Zonage informatif des obligations légales de débroussaillement",
-          "ident": "Zonage informatif des obligations légales de débroussaillement",
-          "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local. ",
-          "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "DEBROUSSAILLEMENT",
-            "style": "nolegend",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Zonage informatif des obligations légales de débroussaillement",
-          "ident": "Zonage informatif des obligations légales de débroussaillement",
+          "ident": "Zonage_informatif_des_obligations_légales_de_débroussaillement",
           "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local. ",
           "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
           "type": "wms_ign_layer",
@@ -1250,7 +1236,7 @@
         },
         {
           "title": "Forets publiques",
-          "ident": "Forets publiques",
+          "ident": "Forets_publiques",
           "description": "Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d’établissements publics) gérées par l’Office national des forêts (ONF).",
           "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?rubrique70",
           "type": "wms_ign_layer",
@@ -1264,7 +1250,7 @@
         },
         {
           "title": "Carte forestière (v2 : 2006-)",
-          "ident": "Carte forestière (v2 : 2006-)",
+          "ident": "Carte_forestière_(v2:2006-)",
           "description": "Localisation de 32 types de formations végétales en France métropolitaine. (2018)",
           "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?article646",
           "type": "wms_ign_layer",
@@ -1278,7 +1264,7 @@
         },
         {
           "title": "Périmètres de protection de réserves naturelles",
-          "ident": "Périmètres de protection de réserves naturelles",
+          "ident": "Périmètres_de_protection_de_réserves_naturelles",
           "description": "Un périmètre de protection peut être mis en place en périphérie d’une réserve naturelle. Cet espace constitue une zone tampon autour de l’espace classé, améliorant les échanges écologiques entre la réserve et sa périphérie.",
           "metadata_url": "https://terranota.fr/les-reserves-naturelles-et-perimetres-de-protection-autour-des-reserves-naturelles-ac3/",
           "type": "wms_ign_layer",
@@ -1288,6 +1274,48 @@
             "name": "PROTECTEDAREAS.MNHN.RN.PERIMETER",
             "style": "normal",
             "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (polygone)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(polygone)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_s_000",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (point)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(point)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_l_000",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (linéaire)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(linéaire)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_p_000",
+            "style": "",
+            "srs": "EPSG:4326"
           }
         }
       ]
@@ -1441,7 +1469,7 @@
         },
         {
           "title": "Decalage de la representation cadastrale",
-          "ident": "Decalage de la representation cadastrale",
+          "ident": "Decalage_de_la_representation_cadastrale",
           "description": "Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express.",
           "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
           "type": "wms_ign_layer",
@@ -1455,7 +1483,7 @@
         },
         {
           "title": "Qualité du géoréférencement de la BD Parcellaire",
-          "ident": "Qualité du géoréférencement de la BD Parcellaire",
+          "ident": "Qualité_du_georeferencement_de_la_BD_Parcellaire",
           "description": "Qualité du géoréférencement de la BD Parcellaire",
           "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
           "type": "wms_ign_layer",
@@ -2100,7 +2128,7 @@
       "type": "folder",
       "children": [
         {
-          "title": "Haies linéraires",
+          "title": "Haies_lineraires",
           "ident": "Haies linéraires",
           "description": "La BD Haie est le résultat des travaux initiés dans le cadre du dispositif de suivi des bocages (DSB).",
           "metadata_url": "https://geoservices.ign.fr/bdhaie",
@@ -2115,7 +2143,7 @@
         },
         {
           "title": "Réseau ferroviaire",
-          "ident": "Réseau ferroviaire",
+          "ident": "Reseau_ferroviaire",
           "description": "Portion de voie ferrée homogène",
           "metadata_url": "https://geoservices.ign.fr/sites/default/files/2022-11/BDTOPO%C2%AE_Th%C3%A8me_Transport-Descriptif_de_contenu.pdf",
           "type": "wms_ign_layer",
@@ -2143,7 +2171,7 @@
         },
         {
           "title": "Lignes Electriques",
-          "ident": "Lignes Electriques",
+          "ident": "Lignes_Electriques",
           "description": "Toutes les lignes électriques à haute (voltage ≥ 63 kV) ou à très haute tension (voltage ≥ 150 kV) sont incluses, sous souterraines.",
           "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DC_BDTOPO_3-0.pdf",
           "type": "wms_ign_layer",
@@ -2157,7 +2185,7 @@
         },
         {
           "title": "Dénominations géographiques",
-          "ident": "Dénominations géographiques",
+          "ident": "Denominations_geographiques",
           "description": "Dénominations topologiques sur le territoire",
           "metadata_url": "",
           "type": "wms_ign_layer",
@@ -2496,6 +2524,56 @@
       ]
     },
     {
+      "title": "Auvergne-Rhône-Alpes",
+      "ident": "",
+      "description": "Données issus de DatARA",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Corridors écologiques linéaires",
+          "ident": "Corridors_ecologiques_linéaires",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_L_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Corridors écologiques surfaciques",
+          "ident": "Corridors_ecologiques_surfaciques",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_S_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Zones humides régionales issues des inventaires départementaux",
+          "ident": "Zones_humides_régionales_issues_des_inventaires_départementaux",
+          "description": "Selon le code de l’environnement, les zones humides sont des « terrains, exploités ou non, habituellement inondés ou gorgés d'eau douce, salée ou saumâtre de façon permanente ou temporaire; la végétation, quand elle existe, y est dominée par des plantes hygrophiles pendant au moins une partie de l'année",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_ZONES_HUMIDES_S_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        }
+      ]
+    },
+    {
       "title": "Couches Vector Tiles",
       "ident": "",
       "description": "",
@@ -2529,42 +2607,6 @@
           "type": "vector_layer",
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/topographie/{z}/{x}/{y}.pbf"
-          }
-        }
-      ]
-    },
-    {
-      "title": "Auvergne-Rhône-Alpes",
-      "ident": "",
-      "description": "Données issus de DatARA",
-      "type": "folder",
-      "children": [
-        {
-          "title": "Corridors écologiques linéaires",
-          "ident": "Corridors écologiques linéaires",
-          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
-          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://ids.craig.fr/wxs/public/wms",
-            "format": "image/png",
-            "name": "CER_CORRIDOR_L_FR84",
-            "style": "",
-            "srs": "EPSG:4326"
-          }
-        },
-        {
-          "title": "Corridors écologiques surfaciques",
-          "ident": "Corridors écologiques surfaciques",
-          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
-          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://ids.craig.fr/wxs/public/wms",
-            "format": "image/png",
-            "name": "CER_CORRIDOR_S_FR84",
-            "style": "",
-            "srs": "EPSG:4326"
           }
         }
       ]
