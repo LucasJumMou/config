@@ -2532,6 +2532,42 @@
           }
         }
       ]
+    },
+    {
+      "title": "Auvergne-Rhône-Alpes",
+      "ident": "",
+      "description": "Données issus de DatARA",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Corridors écologiques linéaires",
+          "ident": "Corridors écologiques linéaires",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_L_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Corridors écologiques surfaciques",
+          "ident": "Corridors écologiques surfaciques",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_S_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        }
+      ]
     }
   ]
 }
