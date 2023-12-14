@@ -2364,7 +2364,7 @@
               "ident": "DGAC_PEB_Plans_d_exposition_aux_bruits",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -2377,7 +2377,7 @@
               "ident": "DGAC_PGS_Plans_de_gene_sonore",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -2390,7 +2390,7 @@
               "ident": "DGAC_PSA_Plans_de_servitudes_aeronautiques)",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -2403,7 +2403,7 @@
               "ident": "DGAC_Documentations_PEB_Plans_d_exposition_aux_bruits",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -2416,7 +2416,7 @@
               "ident": "DGAC_Documentations_PGS_Plans_de_gene_sonore)",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -2429,7 +2429,7 @@
               "ident": "DGAC Documentations_PSA_Plans_de_servitudes_aeronautiques",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_ign_layer",
+              "type": "wms_layer",
               "params": {
                 "url": "https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
                 "format": "image/png",
