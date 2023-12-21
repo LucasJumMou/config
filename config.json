@@ -22,7 +22,7 @@
             "format": "image/png",
             "name": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
