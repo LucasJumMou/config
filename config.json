@@ -73,7 +73,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2023",
             "style": "normal",
@@ -830,7 +830,7 @@
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDCOVER.CLC18_FR",
-            "styles": "CORINE%20Land%20Cover%20-%20France%20m%C3%A9tropolitaine",
+            "style": "CORINE%20Land%20Cover%20-%20France%20m%C3%A9tropolitaine",
             "srs": "EPSG:3857"
           }
         }
@@ -1362,12 +1362,12 @@
           "description": "La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
-          "type": "wms_layer",
+          "type": "wms_enr_layer",
           "params": {
-            "url": "https://www.georisques.gouv.fr/services",
+            "url": "https://www.georisques.gouv.fr/services?",
             "format": "image/png",
             "name": "SSP_ETS_GE_POINT",
-            "srs": "EPSG:3857"
+            "srs": "EPSG:2154"
           }
         },
         {
