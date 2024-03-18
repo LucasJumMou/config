@@ -1364,7 +1364,7 @@
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_enr_layer",
           "params": {
-            "url": "https://www.georisques.gouv.fr/services?",
+            "url": "http://georisques.gouv.fr/services?&http-header:referer=",
             "format": "image/png",
             "name": "SSP_ETS_GE_POINT",
             "srs": "EPSG:2154"
