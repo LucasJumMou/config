@@ -1362,9 +1362,9 @@
           "description": "La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
-          "type": "wms_enr_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
-            "url": "http://georisques.gouv.fr/services?&http-header:referer=",
+            "url": "https://www.georisques.gouv.fr/services?",
             "format": "image/png",
             "name": "SSP_ETS_GE_POINT",
             "srs": "EPSG:2154"
@@ -1790,8 +1790,8 @@
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
-            "name": "naturel",
-            "srs": "EPSG:4326"
+            "name": "monument_naturel_site_previsu",
+            "srs": "EPSG:2154"
           }
         },
         {
